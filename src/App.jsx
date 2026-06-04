@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import Home from "./Home";
+import LandingPage from "./LandingPage";
 import LevelSelection from "./levelselection";
 import VoicePractice from "./VoicePractice";
 
 export default function App() {
-  const [page, setPage] = useState("home"); // home, level, game
+  const [page, setPage] = useState("landing");
   const [selectedLevel, setSelectedLevel] = useState("");
   const [includeVosotros, setIncludeVosotros] = useState(false);
   const [selectedTense, setSelectedTense] = useState("");
 
-  const startLevelSelection = (tense, includeVosotros) => {
-  setSelectedTense(tense);
-  setIncludeVosotros(includeVosotros);
-  setPage("level");
-};
+  const startLevelSelection = (tense, vosotros) => {
+    setSelectedTense(tense);
+    setIncludeVosotros(vosotros);
+    setPage("level");
+  };
 
   const startGame = (level) => {
     setSelectedLevel(level);
@@ -21,23 +21,24 @@ export default function App() {
   };
 
   const goHome = () => {
-    setPage("home");
+    setPage("landing");
     setSelectedLevel("");
     setSelectedTense("");
   };
 
   return (
-  <>
-    {page === "home" && <Home onStart={startLevelSelection} />}
-    {page === "level" && <LevelSelection onSelect={startGame} onBack={() => setPage("home")} />}
-    {page === "game" && (
-      <VoicePractice
-        selectedTense={selectedTense}
-        includeVosotros={includeVosotros}
-        level={selectedLevel}
-        onBack={() => setPage("level")}
-      />
-    )}
-  </>
-);
+    <>
+      {page === "landing" && <LandingPage onStart={startLevelSelection} />}
+      {page === "level" && <LevelSelection onSelect={startGame} onBack={goHome} />}
+      {page === "game" && (
+        <VoicePractice
+          selectedTense={selectedTense}
+          includeVosotros={includeVosotros}
+          level={selectedLevel}
+          onBack={() => setPage("level")}
+          onHome={goHome}
+        />
+      )}
+    </>
+  );
 }

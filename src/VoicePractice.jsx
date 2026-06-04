@@ -59,7 +59,7 @@ function levenshteinDistance(a, b) {
   return matrix[b.length][a.length];
 }
 
-export default function VoicePractice({ selectedTense, includeVosotros, onBack }) {
+export default function VoicePractice({ selectedTense, includeVosotros, onBack, onHome }) {
   const [feedback, setFeedback] = useState("");
   const [currentVerb, setCurrentVerb] = useState({});
   const [coins, setCoins] = useState(0);
@@ -108,10 +108,13 @@ export default function VoicePractice({ selectedTense, includeVosotros, onBack }
       'Imperfect': 'imperfect',
       'Future': 'future',
       'Conditional': 'conditional',
-      'Subjunctive': 'subjunctive'
+      'Subjunctive': 'subjunctive',
     };
-    
-    const tenseToUse = tenseMap[selectedTense] || 'present';
+
+    const allTenseKeys = ['present', 'preterite', 'imperfect', 'future', 'conditional', 'subjunctive'];
+    const tenseToUse = selectedTense === 'All Tenses'
+      ? allTenseKeys[Math.floor(Math.random() * allTenseKeys.length)]
+      : (tenseMap[selectedTense] || 'present');
     
     const subjectKeys = includeVosotros 
       ? Object.keys(SUBJECTS)
@@ -126,7 +129,7 @@ export default function VoicePractice({ selectedTense, includeVosotros, onBack }
       imperfect: "Imperfect (Past)",
       future: "Future",
       conditional: "Conditional",
-      subjunctive: "Subjunctive"
+      subjunctive: "Subjunctive",
     };
     
     setCurrentVerb({
@@ -345,39 +348,42 @@ export default function VoicePractice({ selectedTense, includeVosotros, onBack }
       </button>
 
       <button
-        onClick={handlePause}
+        onClick={() => {
+          SpeechRecognition.stopListening();
+          clearInterval(timerRef.current);
+          onHome();
+        }}
         style={{
           position: "absolute",
           top: "30px",
           right: "30px",
-          width: "60px",
-          height: "60px",
-          borderRadius: "50%",
-          border: "3px solid white",
+          padding: "0.6rem 1.2rem",
+          borderRadius: "25px",
+          border: "2px solid white",
           cursor: "pointer",
-          background: "rgba(251, 191, 36, 0.9)",
+          background: "rgba(30, 58, 138, 0.9)",
           color: "white",
-          fontSize: "1.5rem",
+          fontSize: "1rem",
           fontWeight: "bold",
           boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
           transition: "transform 0.2s, background 0.2s, box-shadow 0.2s",
           zIndex: 1000,
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          gap: "0.4rem",
         }}
         onMouseEnter={(e) => {
-          e.target.style.transform = "scale(1.1)";
-          e.target.style.background = "rgba(245, 158, 11, 1)";
-          e.target.style.boxShadow = "0 6px 16px rgba(0,0,0,0.5)";
+          e.currentTarget.style.transform = "scale(1.05)";
+          e.currentTarget.style.background = "rgba(30, 58, 138, 1)";
+          e.currentTarget.style.boxShadow = "0 6px 16px rgba(0,0,0,0.5)";
         }}
         onMouseLeave={(e) => {
-          e.target.style.transform = "scale(1.0)";
-          e.target.style.background = "rgba(251, 191, 36, 0.9)";
-          e.target.style.boxShadow = "0 4px 12px rgba(0,0,0,0.4)";
+          e.currentTarget.style.transform = "scale(1.0)";
+          e.currentTarget.style.background = "rgba(30, 58, 138, 0.9)";
+          e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.4)";
         }}
       >
-        ⏸
+        🏠 Home
       </button>
 
       <div style={{ textAlign: "center", flex: 1 }}>
