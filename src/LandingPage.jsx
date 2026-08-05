@@ -1,247 +1,277 @@
 import React, { useState } from "react";
 
-const JOURNEYS = [
-  {
-    name: "Present",
-    emoji: "🌅",
-    description: "The here and now",
-    color: "#16a34a",
-    glow: "#4ade80",
-  },
-  {
-    name: "Preterite",
-    emoji: "📜",
-    description: "Completed past actions",
-    color: "#1d4ed8",
-    glow: "#60a5fa",
-  },
-  {
-    name: "Imperfect",
-    emoji: "🌙",
-    description: "Ongoing past actions",
-    color: "#7c3aed",
-    glow: "#a78bfa",
-  },
-  {
-    name: "Future",
-    emoji: "🚀",
-    description: "What is yet to come",
-    color: "#b45309",
-    glow: "#facc15",
-  },
-  {
-    name: "Subjunctive",
-    emoji: "💭",
-    description: "Wishes and doubts",
-    color: "#be185d",
-    glow: "#ec4899",
-  },
-  {
-    name: "Conditional",
-    emoji: "🔮",
-    description: "What would happen",
-    color: "#c2410c",
-    glow: "#fb923c",
-  },
+// Spain coastal background — Costa Brava / Mediterranean
+const BG = "https://images.pexels.com/photos/20843248/pexels-photo-20843248.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop";
+
+const TENSES = [
+  { name: "Present",     label: "Present"     },
+  { name: "Preterite",   label: "Preterite"   },
+  { name: "Imperfect",   label: "Imperfect"   },
+  { name: "Future",      label: "Future"      },
+  { name: "Subjunctive", label: "Subjunctive" },
+  { name: "Conditional", label: "Conditional" },
 ];
 
-const ALL_TENSES = {
-  name: "All Tenses",
-  emoji: "🌍",
-  description: "Master every tense — the full world tour",
-  color: "#0f172a",
-  glow: "#f59e0b",
-  isAll: true,
-};
+// SVG fractal noise — baked into page as a data URI, simulates aged poster grain
+const GRAIN = encodeURIComponent(
+  "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>" +
+  "<filter id='n'>" +
+  "<feTurbulence type='fractalNoise' baseFrequency='0.68' numOctaves='4' stitchTiles='stitch'/>" +
+  "<feColorMatrix type='saturate' values='0'/>" +
+  "</filter>" +
+  "<rect width='200' height='200' filter='url(%23n)'/>" +
+  "</svg>"
+);
 
 export default function LandingPage({ onStart }) {
-  const [includeVosotros, setIncludeVosotros] = useState(false);
-  const [hoveredCard, setHoveredCard] = useState(null);
-
-  const handleSelect = (tenseName) => {
-    onStart(tenseName, includeVosotros);
-  };
+  const [vosotros, setVosotros]   = useState(false);
+  const [hovered,  setHovered]    = useState(null);
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        width: "100vw",
-        background: "linear-gradient(160deg, #0a0f2e 0%, #1e3a8a 40%, #0e4a6e 70%, #0f2027 100%)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "flex-start",
-        paddingTop: "3rem",
-        paddingBottom: "3rem",
-        boxSizing: "border-box",
-        overflowY: "auto",
-      }}
-    >
-      {/* HEADER */}
-      <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-        <div style={{ fontSize: "3rem", marginBottom: "0.5rem" }}>🌎</div>
-        <h1
-          style={{
-            fontSize: "3rem",
-            fontWeight: "900",
-            color: "white",
+    <div style={{
+      width: "100vw", height: "100vh",
+      position: "relative", overflow: "hidden",
+      display: "flex", flexDirection: "column",
+      fontFamily: "'EB Garamond', Georgia, serif",
+    }}>
+
+      {/* ── BACKGROUND PHOTO with vintage poster colour treatment ── */}
+      <img
+        src={BG}
+        alt=""
+        style={{
+          position: "absolute", inset: 0,
+          width: "100%", height: "100%",
+          objectFit: "cover", objectPosition: "center 30%",
+          // sepia + high contrast + slight desaturation = vintage illustration feel
+          filter: "sepia(0.40) saturate(0.72) brightness(0.80) contrast(1.22)",
+          zIndex: 0,
+        }}
+      />
+
+      {/* ── COLOUR GRADE OVERLAY — teal highlights, warm dark shadows ── */}
+      <div style={{
+        position: "absolute", inset: 0, zIndex: 1, pointerEvents: "none",
+        background: `
+          linear-gradient(
+            180deg,
+            rgba(0, 70, 85, 0.22)   0%,
+            rgba(10, 8, 0, 0.08)   45%,
+            rgba(0,  0, 0, 0.62)  100%
+          )
+        `,
+      }} />
+
+      {/* ── GRAIN / AGED-PAPER TEXTURE OVERLAY ── */}
+      <div style={{
+        position: "absolute", inset: 0, zIndex: 2, pointerEvents: "none",
+        backgroundImage: `url("data:image/svg+xml,${GRAIN}")`,
+        backgroundSize: "200px 200px",
+        opacity: 0.18,
+        mixBlendMode: "overlay",
+      }} />
+
+      {/* ── HORIZONTAL CREASE LINES — aged poster folds ── */}
+      <div style={{
+        position: "absolute", inset: 0, zIndex: 2, pointerEvents: "none",
+        backgroundImage: `
+          linear-gradient(0deg,
+            transparent              calc(33.3% - 1px),
+            rgba(255,255,255,0.06)   calc(33.3% - 1px),
+            rgba(255,255,255,0.06)   33.3%,
+            rgba(0,0,0,0.10)         33.3%,
+            rgba(0,0,0,0.10)         calc(33.3% + 1px),
+            transparent              calc(33.3% + 1px),
+
+            transparent              calc(66.6% - 1px),
+            rgba(255,255,255,0.05)   calc(66.6% - 1px),
+            rgba(255,255,255,0.05)   66.6%,
+            rgba(0,0,0,0.08)         66.6%,
+            rgba(0,0,0,0.08)         calc(66.6% + 1px),
+            transparent              calc(66.6% + 1px)
+          )
+        `,
+      }} />
+
+      {/* ══════════════════════════════════════════
+          POSTER CONTENT
+      ══════════════════════════════════════════ */}
+      <div style={{
+        position: "relative", zIndex: 3,
+        flex: 1,
+        display: "flex", flexDirection: "column",
+        justifyContent: "space-between",
+        padding: "5vh 5vw 4vh",
+      }}>
+
+        {/* ── TOP: ESPAÑA headline + birthplace tagline ── */}
+        <div>
+          <h1 style={{
+            fontFamily: "'Alfa Slab One', serif",
+            fontSize: "clamp(3.5rem, 9vw, 7.5rem)",
+            color: "#bf3b10",
             margin: 0,
-            letterSpacing: "0.05em",
-            textShadow: "0 4px 20px rgba(251, 191, 36, 0.4)",
-          }}
-        >
-          Spanish World Tour
-        </h1>
-        <p
-          style={{
-            fontSize: "1.2rem",
-            color: "rgba(255,255,255,0.7)",
-            marginTop: "0.75rem",
-            marginBottom: 0,
-          }}
-        >
-          Choose your journey through the Spanish-speaking world
-        </p>
+            lineHeight: 0.95,
+            letterSpacing: "0.04em",
+            textShadow:
+              "3px 4px 0 rgba(0,0,0,0.35), " +
+              "0 0 40px rgba(0,0,0,0.25), " +
+              "0 0 80px rgba(0,0,0,0.15)",
+          }}>
+            ESPAÑA
+          </h1>
+
+          <p style={{
+            fontFamily: "'EB Garamond', serif",
+            fontSize: "clamp(0.75rem, 1.4vw, 1rem)",
+            color: "#4a6e28",
+            letterSpacing: "0.38em",
+            textTransform: "uppercase",
+            margin: "0.55rem 0 0",
+            fontWeight: 600,
+            textShadow: "1px 1px 4px rgba(0,0,0,0.65)",
+          }}>
+            El Hogar del Español &nbsp;•&nbsp; Birthplace of the Language
+          </p>
+        </div>
+
+        {/* ── BOTTOM of illustration area: Conjugación + subtitle ── */}
+        <div>
+          <h2 style={{
+            fontFamily: "'Great Vibes', cursive",
+            fontSize: "clamp(3rem, 6.5vw, 5.8rem)",
+            color: "#f5edd4",
+            margin: "0 0 0.4rem",
+            lineHeight: 1.1,
+            fontWeight: 400,
+            textShadow: "2px 4px 12px rgba(0,0,0,0.70), 0 0 30px rgba(0,0,0,0.40)",
+          }}>
+            Conjugación
+          </h2>
+
+          <p style={{
+            fontFamily: "'EB Garamond', serif",
+            fontSize: "clamp(0.85rem, 1.25vw, 1.05rem)",
+            color: "rgba(238, 222, 190, 0.92)",
+            margin: 0,
+            letterSpacing: "0.06em",
+            textShadow: "1px 1px 6px rgba(0,0,0,0.75)",
+          }}>
+            Choose your journey through the Spanish-speaking world
+          </p>
+        </div>
       </div>
 
-      {/* TENSE CARDS */}
-      <div
-        style={{
+      {/* ══════════════════════════════════════════
+          BOTTOM PANEL — dark bar, tense selection
+      ══════════════════════════════════════════ */}
+      <div style={{
+        position: "relative", zIndex: 3,
+        background: "rgba(18, 11, 5, 0.91)",
+        borderTop: "1px solid rgba(190, 148, 78, 0.35)",
+        backdropFilter: "blur(4px)",
+      }}>
+
+        {/* Row 1 — six tenses in equal columns */}
+        <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-          gap: "1.25rem",
-          maxWidth: "900px",
-          width: "90%",
-          marginBottom: "1.5rem",
-        }}
-      >
-        {JOURNEYS.map((journey) => (
-          <JourneyCard
-            key={journey.name}
-            journey={journey}
-            hovered={hoveredCard === journey.name}
-            onHover={setHoveredCard}
-            onClick={handleSelect}
-          />
-        ))}
-      </div>
+          gridTemplateColumns: "repeat(6, 1fr)",
+          borderBottom: "1px solid rgba(190, 148, 78, 0.22)",
+        }}>
+          {TENSES.map((t, i) => (
+            <button
+              key={t.name}
+              onMouseEnter={() => setHovered(t.name)}
+              onMouseLeave={() => setHovered(null)}
+              onClick={() => onStart(t.name, vosotros)}
+              style={{
+                padding: "0.85rem 0.4rem",
+                background: hovered === t.name
+                  ? "rgba(190, 148, 78, 0.18)"
+                  : "transparent",
+                border: "none",
+                borderRight: i < 5
+                  ? "1px solid rgba(190, 148, 78, 0.20)"
+                  : "none",
+                color: hovered === t.name ? "#f0d898" : "#d8c898",
+                fontFamily: "'EB Garamond', serif",
+                fontSize: "clamp(0.78rem, 1.05vw, 1rem)",
+                fontWeight: 600,
+                letterSpacing: "0.10em",
+                textTransform: "uppercase",
+                cursor: "pointer",
+                transition: "background 0.18s, color 0.18s",
+              }}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
 
-      {/* ALL TENSES CARD — full width */}
-      <div style={{ width: "90%", maxWidth: "900px", marginBottom: "2rem" }}>
-        <JourneyCard
-          journey={ALL_TENSES}
-          hovered={hoveredCard === ALL_TENSES.name}
-          onHover={setHoveredCard}
-          onClick={handleSelect}
-          fullWidth
-        />
-      </div>
-
-      {/* VOSOTROS TOGGLE */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.75rem",
-          padding: "0.9rem 1.75rem",
-          background: "rgba(255,255,255,0.08)",
-          borderRadius: "50px",
-          border: "1px solid rgba(255,255,255,0.2)",
-          backdropFilter: "blur(8px)",
-          cursor: "pointer",
-        }}
-        onClick={() => setIncludeVosotros((v) => !v)}
-      >
-        <div
-          style={{
-            width: "42px",
-            height: "24px",
-            borderRadius: "12px",
-            background: includeVosotros ? "#f59e0b" : "rgba(255,255,255,0.2)",
-            position: "relative",
-            transition: "background 0.25s",
-            flexShrink: 0,
-          }}
-        >
-          <div
+        {/* Row 2 — All Tenses + Vosotros toggle */}
+        <div style={{ display: "flex", alignItems: "stretch" }}>
+          <button
+            onMouseEnter={() => setHovered("All Tenses")}
+            onMouseLeave={() => setHovered(null)}
+            onClick={() => onStart("All Tenses", vosotros)}
             style={{
-              position: "absolute",
-              top: "3px",
-              left: includeVosotros ? "21px" : "3px",
-              width: "18px",
-              height: "18px",
-              borderRadius: "50%",
-              background: "white",
-              transition: "left 0.25s",
-              boxShadow: "0 1px 4px rgba(0,0,0,0.3)",
+              flex: 1,
+              padding: "0.72rem 1rem",
+              background: hovered === "All Tenses"
+                ? "rgba(190, 148, 78, 0.20)"
+                : "transparent",
+              border: "none",
+              borderRight: "1px solid rgba(190, 148, 78, 0.22)",
+              color: hovered === "All Tenses" ? "#f5d880" : "#c8a850",
+              fontFamily: "'EB Garamond', serif",
+              fontSize: "clamp(0.78rem, 1.05vw, 1rem)",
+              fontWeight: 700,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              cursor: "pointer",
+              transition: "background 0.18s, color 0.18s",
             }}
-          />
-        </div>
-        <span style={{ color: "white", fontSize: "1rem", userSelect: "none" }}>
-          Include <strong>vosotros</strong>{" "}
-          <span style={{ opacity: 0.6, fontSize: "0.9rem" }}>(Spain Spanish)</span>
-        </span>
-      </div>
-    </div>
-  );
-}
+          >
+            ✦ &nbsp;All Tenses&nbsp; ✦
+          </button>
 
-function JourneyCard({ journey, hovered, onHover, onClick, fullWidth }) {
-  return (
-    <button
-      onMouseEnter={() => onHover(journey.name)}
-      onMouseLeave={() => onHover(null)}
-      onClick={() => onClick(journey.name)}
-      style={{
-        background: hovered
-          ? `linear-gradient(135deg, ${journey.color}cc, ${journey.color})`
-          : "rgba(255,255,255,0.07)",
-        border: `2px solid ${hovered ? journey.glow : "rgba(255,255,255,0.15)"}`,
-        borderRadius: "16px",
-        padding: fullWidth ? "1.5rem 2rem" : "1.5rem",
-        cursor: "pointer",
-        color: "white",
-        textAlign: fullWidth ? "center" : "left",
-        transition: "all 0.22s ease",
-        transform: hovered ? "translateY(-4px) scale(1.02)" : "translateY(0) scale(1)",
-        boxShadow: hovered
-          ? `0 12px 32px ${journey.glow}55, 0 0 0 1px ${journey.glow}44`
-          : "0 4px 12px rgba(0,0,0,0.3)",
-        display: "flex",
-        flexDirection: fullWidth ? "row" : "column",
-        alignItems: fullWidth ? "center" : "flex-start",
-        justifyContent: fullWidth ? "center" : "flex-start",
-        gap: fullWidth ? "1rem" : "0.5rem",
-        width: "100%",
-        backdropFilter: "blur(8px)",
-      }}
-    >
-      <span style={{ fontSize: fullWidth ? "2.5rem" : "2rem", lineHeight: 1 }}>
-        {journey.emoji}
-      </span>
-      <div>
-        <div
-          style={{
-            fontSize: fullWidth ? "1.4rem" : "1.15rem",
-            fontWeight: "800",
-            letterSpacing: "0.03em",
-            color: hovered ? "white" : "rgba(255,255,255,0.95)",
-          }}
-        >
-          {journey.name}
-        </div>
-        <div
-          style={{
-            fontSize: "0.85rem",
-            color: hovered ? "rgba(255,255,255,0.85)" : "rgba(255,255,255,0.5)",
-            marginTop: "0.2rem",
-            transition: "color 0.2s",
-          }}
-        >
-          {journey.description}
+          {/* Vosotros toggle */}
+          <div
+            onClick={() => setVosotros(v => !v)}
+            style={{
+              display: "flex", alignItems: "center", gap: "0.55rem",
+              padding: "0.6rem 1.4rem",
+              cursor: "pointer",
+              userSelect: "none",
+            }}
+          >
+            <div style={{
+              width: "36px", height: "20px", borderRadius: "10px",
+              background: vosotros ? "#c8a850" : "rgba(255,255,255,0.15)",
+              position: "relative", transition: "background 0.3s", flexShrink: 0,
+              boxShadow: vosotros ? "0 0 8px rgba(200,168,80,0.5)" : "none",
+            }}>
+              <div style={{
+                position: "absolute", top: "2px",
+                left: vosotros ? "18px" : "2px",
+                width: "16px", height: "16px", borderRadius: "50%",
+                background: "#fff", transition: "left 0.25s",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.4)",
+              }} />
+            </div>
+            <span style={{
+              fontFamily: "'EB Garamond', serif",
+              fontSize: "clamp(0.78rem, 1vw, 0.95rem)",
+              color: "rgba(216, 196, 148, 0.82)",
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+            }}>
+              Vosotros
+            </span>
+          </div>
         </div>
       </div>
-    </button>
+
+    </div>
   );
 }
