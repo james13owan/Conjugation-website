@@ -3,8 +3,8 @@ import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognitio
 import VERB_LIBRARY from "./verbs.json";
 import { COINS_PER_CORRECT, COINS_PER_COUNTRY, getCountryCoins, saveCountryCoins, COUNTRIES, isFlightRoute, isBoatRoute, tenseKey } from "./countries.js";
 
-const SUBJECTS = { yo: "I", tú: "you (informal)", él: "he/she", nosotros: "we", vosotros: "you all (Spain)", ellos: "they" };
-const MAX_TIMER = 8;
+const SUBJECTS = { yo: "I", tú: "you (informal)", él: "he/she", nosotros: "we", vosotros: "you all", ellos: "they" };
+const TIMER_BY_DIFFICULTY = { beginner: 10, intermediate: 5, advanced: 2 };
 const RADIUS = 173;
 const STROKE = 18;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
@@ -35,7 +35,8 @@ function levenshteinDistance(a, b) {
   return m[b.length][a.length];
 }
 
-export default function VoicePractice({ selectedTense, includeVosotros, country, onBack, onHome, onCountryComplete }) {
+export default function VoicePractice({ selectedTense, includeVosotros, difficulty, country, onBack, onHome, onCountryComplete }) {
+  const MAX_TIMER = TIMER_BY_DIFFICULTY[difficulty] ?? 8;
   const tk = tenseKey(selectedTense);
   const [currentVerb, setCurrentVerb] = useState({});
   const [feedback, setFeedback] = useState("");
@@ -166,7 +167,7 @@ export default function VoicePractice({ selectedTense, includeVosotros, country,
     cancelAnimationFrame(rafRef.current);
     setFeedback(`❌ "${currentVerb.correctAnswer}"`); setFeedbackType("wrong"); setStreak(0); localStorage.setItem(`conj_${tk}_current_streak`, "0");
     const missed = JSON.parse(localStorage.getItem(`conj_${tk}_missed_verbs`) || "[]");
-    missed.push({ infinitive: currentVerb.infinitive, english: currentVerb.english, subject: currentVerb.subject, tenseName: currentVerb.tenseName, correctAnswer: currentVerb.correctAnswer, userAnswer: userAnswer.trim() || "—" });
+    missed.push({ infinitive: currentVerb.infinitive, english: currentVerb.english, subject: currentVerb.subject, tenseName: currentVerb.tenseName, correctAnswer: currentVerb.correctAnswer, userAnswer: userAnswer.trim() || "—", difficulty: difficulty || "intermediate" });
     localStorage.setItem(`conj_${tk}_missed_verbs`, JSON.stringify(missed));
 
     const newCoins = Math.max(countryCoins - COINS_PER_CORRECT, 0);
@@ -210,38 +211,38 @@ export default function VoicePractice({ selectedTense, includeVosotros, country,
       ))}
 
       {/* TOP PROGRESS BAR */}
-      <div style={{ width: "100%", height: "10px", background: "rgba(255,255,255,0.05)", flexShrink: 0, position: "relative" }}>
-        <div style={{ width: `${planePct}%`, height: "100%", background: "linear-gradient(90deg, #16a34a, #22c55e, #86efac, #fbbf24)", position: "relative", transition: "width 0.5s ease" }}>
-          <span style={{ position: "absolute", right: "-12px", top: "-6px", fontSize: "20px", lineHeight: 1 }}>{transportIcon}</span>
+      <div style={{ width: "100%", height: "65px", background: "rgba(255,255,255,0.05)", flexShrink: 0, position: "relative" }}>
+        <div style={{ width: `${planePct}%`, height: "100%", background: "linear-gradient(90deg, #16a34a, #22c55e, #86efac, #fbbf24)", position: "relative", transition: "width 0.5s ease", borderRadius: "0 6px 6px 0" }}>
+          <span style={{ position: "absolute", right: "-16px", top: "16px", fontSize: "30px", lineHeight: 1 }}>{transportIcon}</span>
         </div>
       </div>
 
       {/* TOP NAV */}
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 20px", flexShrink: 0, zIndex: 10 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <button onClick={onBack} style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.8)", padding: "6px 14px", borderRadius: "20px", cursor: "pointer", fontSize: "0.82rem" }}>← Map</button>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "15px 30px", flexShrink: 0, zIndex: 10 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+          <button onClick={onBack} style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.8)", padding: "9px 21px", borderRadius: "21px", cursor: "pointer", fontSize: "1.23rem" }}>← Map</button>
           {country && (
-            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <span style={{ background: "rgba(255,255,255,0.12)", color: "white", padding: "3px 9px", borderRadius: "6px", fontSize: "0.78rem", fontWeight: 700 }}>{country.code}</span>
-              <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 600, fontSize: "0.92rem" }}>{country.name}</span>
+            <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+              <span style={{ background: "rgba(255,255,255,0.12)", color: "white", padding: "5px 14px", borderRadius: "8px", fontSize: "1.17rem", fontWeight: 700 }}>{country.code}</span>
+              <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 600, fontSize: "1.38rem" }}>{country.name}</span>
             </div>
           )}
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <div style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", padding: "6px 16px", borderRadius: "20px", fontSize: "0.88rem", fontWeight: 700 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+          <div style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", padding: "9px 24px", borderRadius: "21px", fontSize: "1.32rem", fontWeight: 700 }}>
             🪙 <span style={{ color: "#fbbf24" }}>{countryCoins}</span><span style={{ color: "rgba(255,255,255,0.4)" }}> / {COINS_PER_COUNTRY}</span>
           </div>
-          <button onClick={() => setIsPaused((p) => !p)} style={{ width: "36px", height: "36px", borderRadius: "50%", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)", color: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.9rem" }}>
+          <button onClick={() => setIsPaused((p) => !p)} style={{ width: "54px", height: "54px", borderRadius: "50%", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)", color: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.35rem" }}>
             {isPaused ? "▶" : "⏸"}
           </button>
         </div>
       </div>
 
       {/* MAIN CONTENT */}
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "18px", position: "relative", zIndex: 1 }}>
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "18px", position: "relative", zIndex: 1, paddingBottom: "10vh" }}>
 
         {/* Tense badge */}
-        <div style={{ background: "rgba(34,197,94,0.12)", border: "1px solid rgba(34,197,94,0.35)", color: "#4ade80", padding: "8px 33px", borderRadius: "30px", fontSize: "1.23rem", fontWeight: 700, letterSpacing: "0.12em" }}>
+        <div style={{ background: "rgba(34,197,94,0.12)", border: "1px solid rgba(34,197,94,0.35)", color: "#4ade80", padding: "10px 36px", borderRadius: "30px", fontSize: "1.55rem", fontWeight: 700, letterSpacing: "0.12em" }}>
           {currentVerb.tenseName?.toUpperCase() || "—"}
         </div>
 
@@ -261,8 +262,9 @@ export default function VoicePractice({ selectedTense, includeVosotros, country,
             />
           </svg>
           <div style={{ position: "absolute", inset: "48px", background: "white", borderRadius: "50%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "18px" }}>
-            <div style={{ color: "#94a3b8", fontSize: "1.08rem", marginBottom: "6px" }}>
-              {currentVerb.subject} <span style={{ color: "#cbd5e1" }}>({currentVerb.subjectEnglish})</span>
+            <div style={{ fontSize: "1.45rem", marginBottom: "6px" }}>
+              <span style={{ color: "#6b7280", fontWeight: 800, textTransform: "capitalize" }}>{currentVerb.subject}</span>
+              <span style={{ color: "#a1a1aa", fontWeight: 400 }}> ({currentVerb.subjectEnglish})</span>
             </div>
             <div style={{
               color: "#0f172a",
@@ -291,7 +293,7 @@ export default function VoicePractice({ selectedTense, includeVosotros, country,
       </div>
 
       {/* BOTTOM MIC */}
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", padding: "16px 20px 40px", flexShrink: 0, zIndex: 10 }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", padding: "16px 20px 40px", flexShrink: 0, zIndex: 10, marginBottom: "10vh" }}>
         <button
           onClick={toggleVoice}
           disabled={showComplete}

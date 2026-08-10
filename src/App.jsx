@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LandingPage from "./LandingPage";
+import DifficultySelect from "./difficulty";
 import WorldMap from "./WorldMap";
 import CountryIntro from "./CountryIntro";
 import VoicePractice from "./VoicePractice";
@@ -13,15 +14,30 @@ export default function App() {
   const [selectedTense, setSelectedTense] = useState("All Tenses");
   const [includeVosotros, setIncludeVosotros] = useState(false);
   const [completedCodes, setCompletedCodes] = useState(() => getCompletedCodes("All Tenses"));
+  const [difficulty, setDifficulty] = useState("intermediate");
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [countryIndex, setCountryIndex] = useState(0);
   const [nextCountry, setNextCountry] = useState(null);
   const [prevPage, setPrevPage] = useState("map");
+  const [landingView, setLandingView] = useState("welcome");
+  const [difficultyBackTo, setDifficultyBackTo] = useState("home");
 
   const handleTenseSelect = (tense, vosotros) => {
     setSelectedTense(tense);
     setIncludeVosotros(vosotros);
     setCompletedCodes(getCompletedCodes(tense));
+    setDifficultyBackTo("home");
+    setPage("difficulty");
+  };
+
+  // Called from the map's difficulty badge — no progress reset
+  const handleChangeDifficulty = () => {
+    setDifficultyBackTo("map");
+    setPage("difficulty");
+  };
+
+  const handleDifficultySelect = (level) => {
+    setDifficulty(level);
     setPage("map");
   };
 
@@ -53,6 +69,7 @@ export default function App() {
   };
 
   const goHome = () => {
+    setLandingView("tenses"); // skip the welcome screen on return
     setPage("home");
     setSelectedCountry(null);
     setNextCountry(null);
@@ -71,10 +88,17 @@ export default function App() {
   return (
     <>
       {page === "home" && (
-        <LandingPage onStart={handleTenseSelect} />
+        <LandingPage onStart={handleTenseSelect} initialView={landingView} />
+      )}
+      {page === "difficulty" && (
+        <DifficultySelect
+          selectedTense={selectedTense}
+          onSelect={handleDifficultySelect}
+          onBack={() => setPage(difficultyBackTo)}
+        />
       )}
       {page === "map" && (
-        <WorldMap onPlay={handlePlay} completedCodes={completedCodes} onHome={goHome} selectedTense={selectedTense} onViewMissed={() => { setPrevPage("map"); setPage("missed"); }} />
+        <WorldMap onPlay={handlePlay} completedCodes={completedCodes} onHome={goHome} selectedTense={selectedTense} difficulty={difficulty} onChangeDifficulty={handleChangeDifficulty} includeVosotros={includeVosotros} onToggleVosotros={() => setIncludeVosotros(v => !v)} onViewMissed={() => { setPrevPage("map"); setPage("missed"); }} />
       )}
       {page === "intro" && selectedCountry && (
         <CountryIntro
@@ -90,6 +114,7 @@ export default function App() {
         <VoicePractice
           selectedTense={selectedTense}
           includeVosotros={includeVosotros}
+          difficulty={difficulty}
           country={selectedCountry}
           onBack={() => setPage("map")}
           onHome={goHome}

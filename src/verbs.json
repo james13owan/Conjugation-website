@@ -898,5 +898,869 @@
 "future": { "yo": "crearé", "tú": "crearás", "él": "creará", "nosotros": "crearemos", "vosotros": "crearéis", "ellos": "crearán" },
 "conditional": { "yo": "crearía", "tú": "crearías", "él": "crearía", "nosotros": "crearíamos", "vosotros": "crearíais", "ellos": "crearían" },
 "subjunctive": { "yo": "cree", "tú": "crees", "él": "cree", "nosotros": "creemos", "vosotros": "creéis", "ellos": "creen" }
+},
+"cantar": {
+  "english": "to sing",
+  "present": { "yo": "canto", "tú": "cantas", "él": "canta", "nosotros": "cantamos", "vosotros": "cantáis", "ellos": "cantan" },
+  "preterite": { "yo": "canté", "tú": "cantaste", "él": "cantó", "nosotros": "cantamos", "vosotros": "cantasteis", "ellos": "cantaron" },
+  "imperfect": { "yo": "cantaba", "tú": "cantabas", "él": "cantaba", "nosotros": "cantábamos", "vosotros": "cantabais", "ellos": "cantaban" },
+  "future": { "yo": "cantaré", "tú": "cantarás", "él": "cantará", "nosotros": "cantaremos", "vosotros": "cantaréis", "ellos": "cantarán" },
+  "conditional": { "yo": "cantaría", "tú": "cantarías", "él": "cantaría", "nosotros": "cantaríamos", "vosotros": "cantaríais", "ellos": "cantarían" },
+  "subjunctive": { "yo": "cante", "tú": "cantes", "él": "cante", "nosotros": "cantemos", "vosotros": "cantéis", "ellos": "canten" }
+},
+"nadar": {
+  "english": "to swim",
+  "present": { "yo": "nado", "tú": "nadas", "él": "nada", "nosotros": "nadamos", "vosotros": "nadáis", "ellos": "nadan" },
+  "preterite": { "yo": "nadé", "tú": "nadaste", "él": "nadó", "nosotros": "nadamos", "vosotros": "nadasteis", "ellos": "nadaron" },
+  "imperfect": { "yo": "nadaba", "tú": "nadabas", "él": "nadaba", "nosotros": "nadábamos", "vosotros": "nadabais", "ellos": "nadaban" },
+  "future": { "yo": "nadaré", "tú": "nadarás", "él": "nadará", "nosotros": "nadaremos", "vosotros": "nadaréis", "ellos": "nadarán" },
+  "conditional": { "yo": "nadaría", "tú": "nadarías", "él": "nadaría", "nosotros": "nadaríamos", "vosotros": "nadaríais", "ellos": "nadarían" },
+  "subjunctive": { "yo": "nade", "tú": "nades", "él": "nade", "nosotros": "nademos", "vosotros": "nadéis", "ellos": "naden" }
+},
+"pagar": {
+  "english": "to pay",
+  "present": { "yo": "pago", "tú": "pagas", "él": "paga", "nosotros": "pagamos", "vosotros": "pagáis", "ellos": "pagan" },
+  "preterite": { "yo": "pagué", "tú": "pagaste", "él": "pagó", "nosotros": "pagamos", "vosotros": "pagasteis", "ellos": "pagaron" },
+  "imperfect": { "yo": "pagaba", "tú": "pagabas", "él": "pagaba", "nosotros": "pagábamos", "vosotros": "pagabais", "ellos": "pagaban" },
+  "future": { "yo": "pagaré", "tú": "pagarás", "él": "pagará", "nosotros": "pagaremos", "vosotros": "pagaréis", "ellos": "pagarán" },
+  "conditional": { "yo": "pagaría", "tú": "pagarías", "él": "pagaría", "nosotros": "pagaríamos", "vosotros": "pagaríais", "ellos": "pagarían" },
+  "subjunctive": { "yo": "pague", "tú": "pagues", "él": "pague", "nosotros": "paguemos", "vosotros": "paguéis", "ellos": "paguen" }
+},
+"cerrar": {
+  "english": "to close",
+  "present": { "yo": "cierro", "tú": "cierras", "él": "cierra", "nosotros": "cerramos", "vosotros": "cerráis", "ellos": "cierran" },
+  "preterite": { "yo": "cerré", "tú": "cerraste", "él": "cerró", "nosotros": "cerramos", "vosotros": "cerrasteis", "ellos": "cerraron" },
+  "imperfect": { "yo": "cerraba", "tú": "cerrabas", "él": "cerraba", "nosotros": "cerrábamos", "vosotros": "cerrabais", "ellos": "cerraban" },
+  "future": { "yo": "cerraré", "tú": "cerrarás", "él": "cerrará", "nosotros": "cerraremos", "vosotros": "cerraréis", "ellos": "cerrarán" },
+  "conditional": { "yo": "cerraría", "tú": "cerrarías", "él": "cerraría", "nosotros": "cerraríamos", "vosotros": "cerraríais", "ellos": "cerrarían" },
+  "subjunctive": { "yo": "cierre", "tú": "cierres", "él": "cierre", "nosotros": "cerremos", "vosotros": "cerréis", "ellos": "cierren" }
+},
+"mostrar": {
+  "english": "to show",
+  "present": { "yo": "muestro", "tú": "muestras", "él": "muestra", "nosotros": "mostramos", "vosotros": "mostráis", "ellos": "muestran" },
+  "preterite": { "yo": "mostré", "tú": "mostraste", "él": "mostró", "nosotros": "mostramos", "vosotros": "mostrasteis", "ellos": "mostraron" },
+  "imperfect": { "yo": "mostraba", "tú": "mostrabas", "él": "mostraba", "nosotros": "mostrábamos", "vosotros": "mostrabais", "ellos": "mostraban" },
+  "future": { "yo": "mostraré", "tú": "mostrarás", "él": "mostrará", "nosotros": "mostraremos", "vosotros": "mostraréis", "ellos": "mostrarán" },
+  "conditional": { "yo": "mostraría", "tú": "mostrarías", "él": "mostraría", "nosotros": "mostraríamos", "vosotros": "mostraríais", "ellos": "mostrarían" },
+  "subjunctive": { "yo": "muestre", "tú": "muestres", "él": "muestre", "nosotros": "mostremos", "vosotros": "mostréis", "ellos": "muestren" }
+},
+"probar": {
+  "english": "to try/taste",
+  "present": { "yo": "pruebo", "tú": "pruebas", "él": "prueba", "nosotros": "probamos", "vosotros": "probáis", "ellos": "prueban" },
+  "preterite": { "yo": "probé", "tú": "probaste", "él": "probó", "nosotros": "probamos", "vosotros": "probasteis", "ellos": "probaron" },
+  "imperfect": { "yo": "probaba", "tú": "probabas", "él": "probaba", "nosotros": "probábamos", "vosotros": "probabais", "ellos": "probaban" },
+  "future": { "yo": "probaré", "tú": "probarás", "él": "probará", "nosotros": "probaremos", "vosotros": "probaréis", "ellos": "probarán" },
+  "conditional": { "yo": "probaría", "tú": "probarías", "él": "probaría", "nosotros": "probaríamos", "vosotros": "probaríais", "ellos": "probarían" },
+  "subjunctive": { "yo": "pruebe", "tú": "pruebes", "él": "pruebe", "nosotros": "probemos", "vosotros": "probéis", "ellos": "prueben" }
+},
+"soñar": {
+  "english": "to dream",
+  "present": { "yo": "sueño", "tú": "sueñas", "él": "sueña", "nosotros": "soñamos", "vosotros": "soñáis", "ellos": "sueñan" },
+  "preterite": { "yo": "soñé", "tú": "soñaste", "él": "soñó", "nosotros": "soñamos", "vosotros": "soñasteis", "ellos": "soñaron" },
+  "imperfect": { "yo": "soñaba", "tú": "soñabas", "él": "soñaba", "nosotros": "soñábamos", "vosotros": "soñabais", "ellos": "soñaban" },
+  "future": { "yo": "soñaré", "tú": "soñarás", "él": "soñará", "nosotros": "soñaremos", "vosotros": "soñaréis", "ellos": "soñarán" },
+  "conditional": { "yo": "soñaría", "tú": "soñarías", "él": "soñaría", "nosotros": "soñaríamos", "vosotros": "soñaríais", "ellos": "soñarían" },
+  "subjunctive": { "yo": "sueñe", "tú": "sueñes", "él": "sueñe", "nosotros": "soñemos", "vosotros": "soñéis", "ellos": "sueñen" }
+},
+"volar": {
+  "english": "to fly",
+  "present": { "yo": "vuelo", "tú": "vuelas", "él": "vuela", "nosotros": "volamos", "vosotros": "voláis", "ellos": "vuelan" },
+  "preterite": { "yo": "volé", "tú": "volaste", "él": "voló", "nosotros": "volamos", "vosotros": "volasteis", "ellos": "volaron" },
+  "imperfect": { "yo": "volaba", "tú": "volabas", "él": "volaba", "nosotros": "volábamos", "vosotros": "volabais", "ellos": "volaban" },
+  "future": { "yo": "volaré", "tú": "volarás", "él": "volará", "nosotros": "volaremos", "vosotros": "volaréis", "ellos": "volarán" },
+  "conditional": { "yo": "volaría", "tú": "volarías", "él": "volaría", "nosotros": "volaríamos", "vosotros": "volaríais", "ellos": "volarían" },
+  "subjunctive": { "yo": "vuele", "tú": "vueles", "él": "vuele", "nosotros": "volemos", "vosotros": "voléis", "ellos": "vuelen" }
+},
+"costar": {
+  "english": "to cost",
+  "present": { "yo": "cuesto", "tú": "cuestas", "él": "cuesta", "nosotros": "costamos", "vosotros": "costáis", "ellos": "cuestan" },
+  "preterite": { "yo": "costé", "tú": "costaste", "él": "costó", "nosotros": "costamos", "vosotros": "costasteis", "ellos": "costaron" },
+  "imperfect": { "yo": "costaba", "tú": "costabas", "él": "costaba", "nosotros": "costábamos", "vosotros": "costabais", "ellos": "costaban" },
+  "future": { "yo": "costaré", "tú": "costarás", "él": "costará", "nosotros": "costaremos", "vosotros": "costaréis", "ellos": "costarán" },
+  "conditional": { "yo": "costaría", "tú": "costarías", "él": "costaría", "nosotros": "costaríamos", "vosotros": "costaríais", "ellos": "costarían" },
+  "subjunctive": { "yo": "cueste", "tú": "cuestes", "él": "cueste", "nosotros": "costemos", "vosotros": "costéis", "ellos": "cuesten" }
+},
+"limpiar": {
+  "english": "to clean",
+  "present": { "yo": "limpio", "tú": "limpias", "él": "limpia", "nosotros": "limpiamos", "vosotros": "limpiáis", "ellos": "limpian" },
+  "preterite": { "yo": "limpié", "tú": "limpiaste", "él": "limpió", "nosotros": "limpiamos", "vosotros": "limpiasteis", "ellos": "limpiaron" },
+  "imperfect": { "yo": "limpiaba", "tú": "limpiabas", "él": "limpiaba", "nosotros": "limpiábamos", "vosotros": "limpiabais", "ellos": "limpiaban" },
+  "future": { "yo": "limpiaré", "tú": "limpiarás", "él": "limpiará", "nosotros": "limpiaremos", "vosotros": "limpiaréis", "ellos": "limpiarán" },
+  "conditional": { "yo": "limpiaría", "tú": "limpiarías", "él": "limpiaría", "nosotros": "limpiaríamos", "vosotros": "limpiaríais", "ellos": "limpiarían" },
+  "subjunctive": { "yo": "limpie", "tú": "limpies", "él": "limpie", "nosotros": "limpiemos", "vosotros": "limpiéis", "ellos": "limpien" }
+},
+"preparar": {
+  "english": "to prepare",
+  "present": { "yo": "preparo", "tú": "preparas", "él": "prepara", "nosotros": "preparamos", "vosotros": "preparáis", "ellos": "preparan" },
+  "preterite": { "yo": "preparé", "tú": "preparaste", "él": "preparó", "nosotros": "preparamos", "vosotros": "preparasteis", "ellos": "prepararon" },
+  "imperfect": { "yo": "preparaba", "tú": "preparabas", "él": "preparaba", "nosotros": "preparábamos", "vosotros": "preparabais", "ellos": "preparaban" },
+  "future": { "yo": "prepararé", "tú": "prepararás", "él": "preparará", "nosotros": "prepararemos", "vosotros": "prepararéis", "ellos": "prepararán" },
+  "conditional": { "yo": "prepararía", "tú": "prepararías", "él": "prepararía", "nosotros": "prepararíamos", "vosotros": "prepararíais", "ellos": "prepararían" },
+  "subjunctive": { "yo": "prepare", "tú": "prepares", "él": "prepare", "nosotros": "preparemos", "vosotros": "preparéis", "ellos": "preparen" }
+},
+"visitar": {
+  "english": "to visit",
+  "present": { "yo": "visito", "tú": "visitas", "él": "visita", "nosotros": "visitamos", "vosotros": "visitáis", "ellos": "visitan" },
+  "preterite": { "yo": "visité", "tú": "visitaste", "él": "visitó", "nosotros": "visitamos", "vosotros": "visitasteis", "ellos": "visitaron" },
+  "imperfect": { "yo": "visitaba", "tú": "visitabas", "él": "visitaba", "nosotros": "visitábamos", "vosotros": "visitabais", "ellos": "visitaban" },
+  "future": { "yo": "visitaré", "tú": "visitarás", "él": "visitará", "nosotros": "visitaremos", "vosotros": "visitaréis", "ellos": "visitarán" },
+  "conditional": { "yo": "visitaría", "tú": "visitarías", "él": "visitaría", "nosotros": "visitaríamos", "vosotros": "visitaríais", "ellos": "visitarían" },
+  "subjunctive": { "yo": "visite", "tú": "visites", "él": "visite", "nosotros": "visitemos", "vosotros": "visitéis", "ellos": "visiten" }
+},
+"levantar": {
+  "english": "to raise/lift",
+  "present": { "yo": "levanto", "tú": "levantas", "él": "levanta", "nosotros": "levantamos", "vosotros": "levantáis", "ellos": "levantan" },
+  "preterite": { "yo": "levanté", "tú": "levantaste", "él": "levantó", "nosotros": "levantamos", "vosotros": "levantasteis", "ellos": "levantaron" },
+  "imperfect": { "yo": "levantaba", "tú": "levantabas", "él": "levantaba", "nosotros": "levantábamos", "vosotros": "levantabais", "ellos": "levantaban" },
+  "future": { "yo": "levantaré", "tú": "levantarás", "él": "levantará", "nosotros": "levantaremos", "vosotros": "levantaréis", "ellos": "levantarán" },
+  "conditional": { "yo": "levantaría", "tú": "levantarías", "él": "levantaría", "nosotros": "levantaríamos", "vosotros": "levantaríais", "ellos": "levantarían" },
+  "subjunctive": { "yo": "levante", "tú": "levantes", "él": "levante", "nosotros": "levantemos", "vosotros": "levantéis", "ellos": "levanten" }
+},
+"presentar": {
+  "english": "to present/introduce",
+  "present": { "yo": "presento", "tú": "presentas", "él": "presenta", "nosotros": "presentamos", "vosotros": "presentáis", "ellos": "presentan" },
+  "preterite": { "yo": "presenté", "tú": "presentaste", "él": "presentó", "nosotros": "presentamos", "vosotros": "presentasteis", "ellos": "presentaron" },
+  "imperfect": { "yo": "presentaba", "tú": "presentabas", "él": "presentaba", "nosotros": "presentábamos", "vosotros": "presentabais", "ellos": "presentaban" },
+  "future": { "yo": "presentaré", "tú": "presentarás", "él": "presentará", "nosotros": "presentaremos", "vosotros": "presentaréis", "ellos": "presentarán" },
+  "conditional": { "yo": "presentaría", "tú": "presentarías", "él": "presentaría", "nosotros": "presentaríamos", "vosotros": "presentaríais", "ellos": "presentarían" },
+  "subjunctive": { "yo": "presente", "tú": "presentes", "él": "presente", "nosotros": "presentemos", "vosotros": "presentéis", "ellos": "presenten" }
+},
+"repetir": {
+  "english": "to repeat",
+  "present": { "yo": "repito", "tú": "repites", "él": "repite", "nosotros": "repetimos", "vosotros": "repetís", "ellos": "repiten" },
+  "preterite": { "yo": "repetí", "tú": "repetiste", "él": "repitió", "nosotros": "repetimos", "vosotros": "repetisteis", "ellos": "repitieron" },
+  "imperfect": { "yo": "repetía", "tú": "repetías", "él": "repetía", "nosotros": "repetíamos", "vosotros": "repetíais", "ellos": "repetían" },
+  "future": { "yo": "repetiré", "tú": "repetirás", "él": "repetirá", "nosotros": "repetiremos", "vosotros": "repetiréis", "ellos": "repetirán" },
+  "conditional": { "yo": "repetiría", "tú": "repetirías", "él": "repetiría", "nosotros": "repetiríamos", "vosotros": "repetiríais", "ellos": "repetirían" },
+  "subjunctive": { "yo": "repita", "tú": "repitas", "él": "repita", "nosotros": "repitamos", "vosotros": "repitáis", "ellos": "repitan" }
+},
+"romper": {
+  "english": "to break",
+  "present": { "yo": "rompo", "tú": "rompes", "él": "rompe", "nosotros": "rompemos", "vosotros": "rompéis", "ellos": "rompen" },
+  "preterite": { "yo": "rompí", "tú": "rompiste", "él": "rompió", "nosotros": "rompimos", "vosotros": "rompisteis", "ellos": "rompieron" },
+  "imperfect": { "yo": "rompía", "tú": "rompías", "él": "rompía", "nosotros": "rompíamos", "vosotros": "rompíais", "ellos": "rompían" },
+  "future": { "yo": "romperé", "tú": "romperás", "él": "romperá", "nosotros": "romperemos", "vosotros": "romperéis", "ellos": "romperán" },
+  "conditional": { "yo": "rompería", "tú": "romperías", "él": "rompería", "nosotros": "romperíamos", "vosotros": "romperíais", "ellos": "romperían" },
+  "subjunctive": { "yo": "rompa", "tú": "rompas", "él": "rompa", "nosotros": "rompamos", "vosotros": "rompáis", "ellos": "rompan" }
+},
+"enseñar": {
+  "english": "to teach/show",
+  "present": { "yo": "enseño", "tú": "enseñas", "él": "enseña", "nosotros": "enseñamos", "vosotros": "enseñáis", "ellos": "enseñan" },
+  "preterite": { "yo": "enseñé", "tú": "enseñaste", "él": "enseñó", "nosotros": "enseñamos", "vosotros": "enseñasteis", "ellos": "enseñaron" },
+  "imperfect": { "yo": "enseñaba", "tú": "enseñabas", "él": "enseñaba", "nosotros": "enseñábamos", "vosotros": "enseñabais", "ellos": "enseñaban" },
+  "future": { "yo": "enseñaré", "tú": "enseñarás", "él": "enseñará", "nosotros": "enseñaremos", "vosotros": "enseñaréis", "ellos": "enseñarán" },
+  "conditional": { "yo": "enseñaría", "tú": "enseñarías", "él": "enseñaría", "nosotros": "enseñaríamos", "vosotros": "enseñaríais", "ellos": "enseñarían" },
+  "subjunctive": { "yo": "enseñe", "tú": "enseñes", "él": "enseñe", "nosotros": "enseñemos", "vosotros": "enseñéis", "ellos": "enseñen" }
+},
+"intentar": {
+  "english": "to try/attempt",
+  "present": { "yo": "intento", "tú": "intentas", "él": "intenta", "nosotros": "intentamos", "vosotros": "intentáis", "ellos": "intentan" },
+  "preterite": { "yo": "intenté", "tú": "intentaste", "él": "intentó", "nosotros": "intentamos", "vosotros": "intentasteis", "ellos": "intentaron" },
+  "imperfect": { "yo": "intentaba", "tú": "intentabas", "él": "intentaba", "nosotros": "intentábamos", "vosotros": "intentabais", "ellos": "intentaban" },
+  "future": { "yo": "intentaré", "tú": "intentarás", "él": "intentará", "nosotros": "intentaremos", "vosotros": "intentaréis", "ellos": "intentarán" },
+  "conditional": { "yo": "intentaría", "tú": "intentarías", "él": "intentaría", "nosotros": "intentaríamos", "vosotros": "intentaríais", "ellos": "intentarían" },
+  "subjunctive": { "yo": "intente", "tú": "intentes", "él": "intente", "nosotros": "intentemos", "vosotros": "intentéis", "ellos": "intenten" }
+},
+"desarrollar": {
+  "english": "to develop",
+  "present": { "yo": "desarrollo", "tú": "desarrollas", "él": "desarrolla", "nosotros": "desarrollamos", "vosotros": "desarrolláis", "ellos": "desarrollan" },
+  "preterite": { "yo": "desarrollé", "tú": "desarrollaste", "él": "desarrolló", "nosotros": "desarrollamos", "vosotros": "desarrollasteis", "ellos": "desarrollaron" },
+  "imperfect": { "yo": "desarrollaba", "tú": "desarrollabas", "él": "desarrollaba", "nosotros": "desarrollábamos", "vosotros": "desarrollabais", "ellos": "desarrollaban" },
+  "future": { "yo": "desarrollaré", "tú": "desarrollarás", "él": "desarrollará", "nosotros": "desarrollaremos", "vosotros": "desarrollaréis", "ellos": "desarrollarán" },
+  "conditional": { "yo": "desarrollaría", "tú": "desarrollarías", "él": "desarrollaría", "nosotros": "desarrollaríamos", "vosotros": "desarrollaríais", "ellos": "desarrollarían" },
+  "subjunctive": { "yo": "desarrolle", "tú": "desarrolles", "él": "desarrolle", "nosotros": "desarrollemos", "vosotros": "desarrolléis", "ellos": "desarrollen" }
+},
+"decidir": {
+  "english": "to decide",
+  "present": { "yo": "decido", "tú": "decides", "él": "decide", "nosotros": "decidimos", "vosotros": "decidís", "ellos": "deciden" },
+  "preterite": { "yo": "decidí", "tú": "decidiste", "él": "decidió", "nosotros": "decidimos", "vosotros": "decidisteis", "ellos": "decidieron" },
+  "imperfect": { "yo": "decidía", "tú": "decidías", "él": "decidía", "nosotros": "decidíamos", "vosotros": "decidíais", "ellos": "decidían" },
+  "future": { "yo": "decidiré", "tú": "decidirás", "él": "decidirá", "nosotros": "decidiremos", "vosotros": "decidiréis", "ellos": "decidirán" },
+  "conditional": { "yo": "decidiría", "tú": "decidirías", "él": "decidiría", "nosotros": "decidiríamos", "vosotros": "decidiríais", "ellos": "decidirían" },
+  "subjunctive": { "yo": "decida", "tú": "decidas", "él": "decida", "nosotros": "decidamos", "vosotros": "decidáis", "ellos": "decidan" }
+},
+"cuidar": {
+  "english": "to care for",
+  "present": { "yo": "cuido", "tú": "cuidas", "él": "cuida", "nosotros": "cuidamos", "vosotros": "cuidáis", "ellos": "cuidan" },
+  "preterite": { "yo": "cuidé", "tú": "cuidaste", "él": "cuidó", "nosotros": "cuidamos", "vosotros": "cuidasteis", "ellos": "cuidaron" },
+  "imperfect": { "yo": "cuidaba", "tú": "cuidabas", "él": "cuidaba", "nosotros": "cuidábamos", "vosotros": "cuidabais", "ellos": "cuidaban" },
+  "future": { "yo": "cuidaré", "tú": "cuidarás", "él": "cuidará", "nosotros": "cuidaremos", "vosotros": "cuidaréis", "ellos": "cuidarán" },
+  "conditional": { "yo": "cuidaría", "tú": "cuidarías", "él": "cuidaría", "nosotros": "cuidaríamos", "vosotros": "cuidaríais", "ellos": "cuidarían" },
+  "subjunctive": { "yo": "cuide", "tú": "cuides", "él": "cuide", "nosotros": "cuidemos", "vosotros": "cuidéis", "ellos": "cuiden" }
+},
+"celebrar": {
+  "english": "to celebrate",
+  "present": { "yo": "celebro", "tú": "celebras", "él": "celebra", "nosotros": "celebramos", "vosotros": "celebráis", "ellos": "celebran" },
+  "preterite": { "yo": "celebré", "tú": "celebraste", "él": "celebró", "nosotros": "celebramos", "vosotros": "celebrasteis", "ellos": "celebraron" },
+  "imperfect": { "yo": "celebraba", "tú": "celebrabas", "él": "celebraba", "nosotros": "celebrábamos", "vosotros": "celebrabais", "ellos": "celebraban" },
+  "future": { "yo": "celebraré", "tú": "celebrarás", "él": "celebrará", "nosotros": "celebraremos", "vosotros": "celebraréis", "ellos": "celebrarán" },
+  "conditional": { "yo": "celebraría", "tú": "celebrarías", "él": "celebraría", "nosotros": "celebraríamos", "vosotros": "celebraríais", "ellos": "celebrarían" },
+  "subjunctive": { "yo": "celebre", "tú": "celebres", "él": "celebre", "nosotros": "celebremos", "vosotros": "celebréis", "ellos": "celebren" }
+},
+"mejorar": {
+  "english": "to improve",
+  "present": { "yo": "mejoro", "tú": "mejoras", "él": "mejora", "nosotros": "mejoramos", "vosotros": "mejoráis", "ellos": "mejoran" },
+  "preterite": { "yo": "mejoré", "tú": "mejoraste", "él": "mejoró", "nosotros": "mejoramos", "vosotros": "mejorasteis", "ellos": "mejoraron" },
+  "imperfect": { "yo": "mejoraba", "tú": "mejorabas", "él": "mejoraba", "nosotros": "mejorábamos", "vosotros": "mejorabais", "ellos": "mejoraban" },
+  "future": { "yo": "mejoraré", "tú": "mejorarás", "él": "mejorará", "nosotros": "mejoraremos", "vosotros": "mejoraréis", "ellos": "mejorarán" },
+  "conditional": { "yo": "mejoraría", "tú": "mejorarías", "él": "mejoraría", "nosotros": "mejoraríamos", "vosotros": "mejoraríais", "ellos": "mejorarían" },
+  "subjunctive": { "yo": "mejore", "tú": "mejores", "él": "mejore", "nosotros": "mejoremos", "vosotros": "mejoréis", "ellos": "mejoren" }
+},
+"importar": {
+  "english": "to matter/import",
+  "present": { "yo": "importo", "tú": "importas", "él": "importa", "nosotros": "importamos", "vosotros": "importáis", "ellos": "importan" },
+  "preterite": { "yo": "importé", "tú": "importaste", "él": "importó", "nosotros": "importamos", "vosotros": "importasteis", "ellos": "importaron" },
+  "imperfect": { "yo": "importaba", "tú": "importabas", "él": "importaba", "nosotros": "importábamos", "vosotros": "importabais", "ellos": "importaban" },
+  "future": { "yo": "importaré", "tú": "importarás", "él": "importará", "nosotros": "importaremos", "vosotros": "importaréis", "ellos": "importarán" },
+  "conditional": { "yo": "importaría", "tú": "importarías", "él": "importaría", "nosotros": "importaríamos", "vosotros": "importaríais", "ellos": "importarían" },
+  "subjunctive": { "yo": "importe", "tú": "importes", "él": "importe", "nosotros": "importemos", "vosotros": "importéis", "ellos": "importen" }
+},
+"faltar": {
+  "english": "to be missing/lack",
+  "present": { "yo": "falto", "tú": "faltas", "él": "falta", "nosotros": "faltamos", "vosotros": "faltáis", "ellos": "faltan" },
+  "preterite": { "yo": "falté", "tú": "faltaste", "él": "faltó", "nosotros": "faltamos", "vosotros": "faltasteis", "ellos": "faltaron" },
+  "imperfect": { "yo": "faltaba", "tú": "faltabas", "él": "faltaba", "nosotros": "faltábamos", "vosotros": "faltabais", "ellos": "faltaban" },
+  "future": { "yo": "faltaré", "tú": "faltarás", "él": "faltará", "nosotros": "faltaremos", "vosotros": "faltaréis", "ellos": "faltarán" },
+  "conditional": { "yo": "faltaría", "tú": "faltarías", "él": "faltaría", "nosotros": "faltaríamos", "vosotros": "faltaríais", "ellos": "faltarían" },
+  "subjunctive": { "yo": "falte", "tú": "faltes", "él": "falte", "nosotros": "faltemos", "vosotros": "faltéis", "ellos": "falten" }
+},
+"durar": {
+  "english": "to last",
+  "present": { "yo": "duro", "tú": "duras", "él": "dura", "nosotros": "duramos", "vosotros": "duráis", "ellos": "duran" },
+  "preterite": { "yo": "duré", "tú": "duraste", "él": "duró", "nosotros": "duramos", "vosotros": "durasteis", "ellos": "duraron" },
+  "imperfect": { "yo": "duraba", "tú": "durabas", "él": "duraba", "nosotros": "durábamos", "vosotros": "durabais", "ellos": "duraban" },
+  "future": { "yo": "duraré", "tú": "durarás", "él": "durará", "nosotros": "duraremos", "vosotros": "duraréis", "ellos": "durarán" },
+  "conditional": { "yo": "duraría", "tú": "durarías", "él": "duraría", "nosotros": "duraríamos", "vosotros": "duraríais", "ellos": "durarían" },
+  "subjunctive": { "yo": "dure", "tú": "dures", "él": "dure", "nosotros": "duremos", "vosotros": "duréis", "ellos": "duren" }
+},
+"conducir": {
+  "english": "to drive",
+  "present": { "yo": "conduzco", "tú": "conduces", "él": "conduce", "nosotros": "conducimos", "vosotros": "conducís", "ellos": "conducen" },
+  "preterite": { "yo": "conduje", "tú": "condujiste", "él": "condujo", "nosotros": "condujimos", "vosotros": "condujisteis", "ellos": "condujeron" },
+  "imperfect": { "yo": "conducía", "tú": "conducías", "él": "conducía", "nosotros": "conducíamos", "vosotros": "conducíais", "ellos": "conducían" },
+  "future": { "yo": "conduciré", "tú": "conducirás", "él": "conducirá", "nosotros": "conduciremos", "vosotros": "conduciréis", "ellos": "conducirán" },
+  "conditional": { "yo": "conduciría", "tú": "conducirías", "él": "conduciría", "nosotros": "conduciríamos", "vosotros": "conduciríais", "ellos": "conducirían" },
+  "subjunctive": { "yo": "conduzca", "tú": "conduzcas", "él": "conduzca", "nosotros": "conduzcamos", "vosotros": "conduzcáis", "ellos": "conduzcan" }
+},
+"construir": {
+  "english": "to build",
+  "present": { "yo": "construyo", "tú": "construyes", "él": "construye", "nosotros": "construimos", "vosotros": "construís", "ellos": "construyen" },
+  "preterite": { "yo": "construí", "tú": "construiste", "él": "construyó", "nosotros": "construimos", "vosotros": "construisteis", "ellos": "construyeron" },
+  "imperfect": { "yo": "construía", "tú": "construías", "él": "construía", "nosotros": "construíamos", "vosotros": "construíais", "ellos": "construían" },
+  "future": { "yo": "construiré", "tú": "construirás", "él": "construirá", "nosotros": "construiremos", "vosotros": "construiréis", "ellos": "construirán" },
+  "conditional": { "yo": "construiría", "tú": "construirías", "él": "construiría", "nosotros": "construiríamos", "vosotros": "construiríais", "ellos": "construirían" },
+  "subjunctive": { "yo": "construya", "tú": "construyas", "él": "construya", "nosotros": "construyamos", "vosotros": "construyáis", "ellos": "construyan" }
+},
+"incluir": {
+  "english": "to include",
+  "present": { "yo": "incluyo", "tú": "incluyes", "él": "incluye", "nosotros": "incluimos", "vosotros": "incluís", "ellos": "incluyen" },
+  "preterite": { "yo": "incluí", "tú": "incluiste", "él": "incluyó", "nosotros": "incluimos", "vosotros": "incluisteis", "ellos": "incluyeron" },
+  "imperfect": { "yo": "incluía", "tú": "incluías", "él": "incluía", "nosotros": "incluíamos", "vosotros": "incluíais", "ellos": "incluían" },
+  "future": { "yo": "incluiré", "tú": "incluirás", "él": "incluirá", "nosotros": "incluiremos", "vosotros": "incluiréis", "ellos": "incluirán" },
+  "conditional": { "yo": "incluiría", "tú": "incluirías", "él": "incluiría", "nosotros": "incluiríamos", "vosotros": "incluiríais", "ellos": "incluirían" },
+  "subjunctive": { "yo": "incluya", "tú": "incluyas", "él": "incluya", "nosotros": "incluyamos", "vosotros": "incluyáis", "ellos": "incluyan" }
+},
+"huir": {
+  "english": "to flee",
+  "present": { "yo": "huyo", "tú": "huyes", "él": "huye", "nosotros": "huimos", "vosotros": "huís", "ellos": "huyen" },
+  "preterite": { "yo": "huí", "tú": "huiste", "él": "huyó", "nosotros": "huimos", "vosotros": "huisteis", "ellos": "huyeron" },
+  "imperfect": { "yo": "huía", "tú": "huías", "él": "huía", "nosotros": "huíamos", "vosotros": "huíais", "ellos": "huían" },
+  "future": { "yo": "huiré", "tú": "huirás", "él": "huirá", "nosotros": "huiremos", "vosotros": "huiréis", "ellos": "huirán" },
+  "conditional": { "yo": "huiría", "tú": "huirías", "él": "huiría", "nosotros": "huiríamos", "vosotros": "huiríais", "ellos": "huirían" },
+  "subjunctive": { "yo": "huya", "tú": "huyas", "él": "huya", "nosotros": "huyamos", "vosotros": "huyáis", "ellos": "huyan" }
+},
+"cumplir": {
+  "english": "to fulfill/complete",
+  "present": { "yo": "cumplo", "tú": "cumples", "él": "cumple", "nosotros": "cumplimos", "vosotros": "cumplís", "ellos": "cumplen" },
+  "preterite": { "yo": "cumplí", "tú": "cumpliste", "él": "cumplió", "nosotros": "cumplimos", "vosotros": "cumplisteis", "ellos": "cumplieron" },
+  "imperfect": { "yo": "cumplía", "tú": "cumplías", "él": "cumplía", "nosotros": "cumplíamos", "vosotros": "cumplíais", "ellos": "cumplían" },
+  "future": { "yo": "cumpliré", "tú": "cumplirás", "él": "cumplirá", "nosotros": "cumpliremos", "vosotros": "cumpliréis", "ellos": "cumplirán" },
+  "conditional": { "yo": "cumpliría", "tú": "cumplirías", "él": "cumpliría", "nosotros": "cumpliríamos", "vosotros": "cumpliríais", "ellos": "cumplirían" },
+  "subjunctive": { "yo": "cumpla", "tú": "cumplas", "él": "cumpla", "nosotros": "cumplamos", "vosotros": "cumpláis", "ellos": "cumplan" }
+},
+"sufrir": {
+  "english": "to suffer",
+  "present": { "yo": "sufro", "tú": "sufres", "él": "sufre", "nosotros": "sufrimos", "vosotros": "sufrís", "ellos": "sufren" },
+  "preterite": { "yo": "sufrí", "tú": "sufriste", "él": "sufrió", "nosotros": "sufrimos", "vosotros": "sufristeis", "ellos": "sufrieron" },
+  "imperfect": { "yo": "sufría", "tú": "sufrías", "él": "sufría", "nosotros": "sufríamos", "vosotros": "sufríais", "ellos": "sufrían" },
+  "future": { "yo": "sufriré", "tú": "sufrirás", "él": "sufrirá", "nosotros": "sufriremos", "vosotros": "sufriréis", "ellos": "sufrirán" },
+  "conditional": { "yo": "sufriría", "tú": "sufrirías", "él": "sufriría", "nosotros": "sufriríamos", "vosotros": "sufriríais", "ellos": "sufrirían" },
+  "subjunctive": { "yo": "sufra", "tú": "sufras", "él": "sufra", "nosotros": "suframos", "vosotros": "sufráis", "ellos": "sufran" }
+},
+"añadir": {
+  "english": "to add",
+  "present": { "yo": "añado", "tú": "añades", "él": "añade", "nosotros": "añadimos", "vosotros": "añadís", "ellos": "añaden" },
+  "preterite": { "yo": "añadí", "tú": "añadiste", "él": "añadió", "nosotros": "añadimos", "vosotros": "añadisteis", "ellos": "añadieron" },
+  "imperfect": { "yo": "añadía", "tú": "añadías", "él": "añadía", "nosotros": "añadíamos", "vosotros": "añadíais", "ellos": "añadían" },
+  "future": { "yo": "añadiré", "tú": "añadirás", "él": "añadirá", "nosotros": "añadiremos", "vosotros": "añadiréis", "ellos": "añadirán" },
+  "conditional": { "yo": "añadiría", "tú": "añadirías", "él": "añadiría", "nosotros": "añadiríamos", "vosotros": "añadiríais", "ellos": "añadirían" },
+  "subjunctive": { "yo": "añada", "tú": "añadas", "él": "añada", "nosotros": "añadamos", "vosotros": "añadáis", "ellos": "añadan" }
+},
+"surgir": {
+  "english": "to emerge/arise",
+  "present": { "yo": "surjo", "tú": "surges", "él": "surge", "nosotros": "surgimos", "vosotros": "surgís", "ellos": "surgen" },
+  "preterite": { "yo": "surgí", "tú": "surgiste", "él": "surgió", "nosotros": "surgimos", "vosotros": "surgisteis", "ellos": "surgieron" },
+  "imperfect": { "yo": "surgía", "tú": "surgías", "él": "surgía", "nosotros": "surgíamos", "vosotros": "surgíais", "ellos": "surgían" },
+  "future": { "yo": "surgiré", "tú": "surgirás", "él": "surgirá", "nosotros": "surgiremos", "vosotros": "surgiréis", "ellos": "surgirán" },
+  "conditional": { "yo": "surgiría", "tú": "surgirías", "él": "surgiría", "nosotros": "surgiríamos", "vosotros": "surgiríais", "ellos": "surgirían" },
+  "subjunctive": { "yo": "surja", "tú": "surjas", "él": "surja", "nosotros": "surjamos", "vosotros": "surjáis", "ellos": "surjan" }
+},
+"elegir": {
+  "english": "to choose/elect",
+  "present": { "yo": "elijo", "tú": "eliges", "él": "elige", "nosotros": "elegimos", "vosotros": "elegís", "ellos": "eligen" },
+  "preterite": { "yo": "elegí", "tú": "elegiste", "él": "eligió", "nosotros": "elegimos", "vosotros": "elegisteis", "ellos": "eligieron" },
+  "imperfect": { "yo": "elegía", "tú": "elegías", "él": "elegía", "nosotros": "elegíamos", "vosotros": "elegíais", "ellos": "elegían" },
+  "future": { "yo": "elegiré", "tú": "elegirás", "él": "elegirá", "nosotros": "elegiremos", "vosotros": "elegiréis", "ellos": "elegirán" },
+  "conditional": { "yo": "elegiría", "tú": "elegirías", "él": "elegiría", "nosotros": "elegiríamos", "vosotros": "elegiríais", "ellos": "elegirían" },
+  "subjunctive": { "yo": "elija", "tú": "elijas", "él": "elija", "nosotros": "elijamos", "vosotros": "elijáis", "ellos": "elijan" }
+},
+"reír": {
+  "english": "to laugh",
+  "present": { "yo": "río", "tú": "ríes", "él": "ríe", "nosotros": "reímos", "vosotros": "reís", "ellos": "ríen" },
+  "preterite": { "yo": "reí", "tú": "reíste", "él": "rió", "nosotros": "reímos", "vosotros": "reísteis", "ellos": "rieron" },
+  "imperfect": { "yo": "reía", "tú": "reías", "él": "reía", "nosotros": "reíamos", "vosotros": "reíais", "ellos": "reían" },
+  "future": { "yo": "reiré", "tú": "reirás", "él": "reirá", "nosotros": "reiremos", "vosotros": "reiréis", "ellos": "reirán" },
+  "conditional": { "yo": "reiría", "tú": "reirías", "él": "reiría", "nosotros": "reiríamos", "vosotros": "reiríais", "ellos": "reirían" },
+  "subjunctive": { "yo": "ría", "tú": "rías", "él": "ría", "nosotros": "riamos", "vosotros": "riáis", "ellos": "rían" }
+},
+"mover": {
+  "english": "to move",
+  "present": { "yo": "muevo", "tú": "mueves", "él": "mueve", "nosotros": "movemos", "vosotros": "movéis", "ellos": "mueven" },
+  "preterite": { "yo": "moví", "tú": "moviste", "él": "movió", "nosotros": "movimos", "vosotros": "movisteis", "ellos": "movieron" },
+  "imperfect": { "yo": "movía", "tú": "movías", "él": "movía", "nosotros": "movíamos", "vosotros": "movíais", "ellos": "movían" },
+  "future": { "yo": "moveré", "tú": "moverás", "él": "moverá", "nosotros": "moveremos", "vosotros": "moveréis", "ellos": "moverán" },
+  "conditional": { "yo": "movería", "tú": "moverías", "él": "movería", "nosotros": "moveríamos", "vosotros": "moveríais", "ellos": "moverían" },
+  "subjunctive": { "yo": "mueva", "tú": "muevas", "él": "mueva", "nosotros": "movamos", "vosotros": "mováis", "ellos": "muevan" }
+},
+"resolver": {
+  "english": "to resolve/solve",
+  "present": { "yo": "resuelvo", "tú": "resuelves", "él": "resuelve", "nosotros": "resolvemos", "vosotros": "resolvéis", "ellos": "resuelven" },
+  "preterite": { "yo": "resolví", "tú": "resolviste", "él": "resolvió", "nosotros": "resolvimos", "vosotros": "resolvisteis", "ellos": "resolvieron" },
+  "imperfect": { "yo": "resolvía", "tú": "resolvías", "él": "resolvía", "nosotros": "resolvíamos", "vosotros": "resolvíais", "ellos": "resolvían" },
+  "future": { "yo": "resolveré", "tú": "resolverás", "él": "resolverá", "nosotros": "resolveremos", "vosotros": "resolveréis", "ellos": "resolverán" },
+  "conditional": { "yo": "resolvería", "tú": "resolverías", "él": "resolvería", "nosotros": "resolveríamos", "vosotros": "resolveríais", "ellos": "resolverían" },
+  "subjunctive": { "yo": "resuelva", "tú": "resuelvas", "él": "resuelva", "nosotros": "resolvamos", "vosotros": "resolváis", "ellos": "resuelvan" }
+},
+"devolver": {
+  "english": "to return/give back",
+  "present": { "yo": "devuelvo", "tú": "devuelves", "él": "devuelve", "nosotros": "devolvemos", "vosotros": "devolvéis", "ellos": "devuelven" },
+  "preterite": { "yo": "devolví", "tú": "devolviste", "él": "devolvió", "nosotros": "devolvimos", "vosotros": "devolvisteis", "ellos": "devolvieron" },
+  "imperfect": { "yo": "devolvía", "tú": "devolvías", "él": "devolvía", "nosotros": "devolvíamos", "vosotros": "devolvíais", "ellos": "devolvían" },
+  "future": { "yo": "devolveré", "tú": "devolverás", "él": "devolverá", "nosotros": "devolveremos", "vosotros": "devolveréis", "ellos": "devolverán" },
+  "conditional": { "yo": "devolvería", "tú": "devolverías", "él": "devolvería", "nosotros": "devolveríamos", "vosotros": "devolveríais", "ellos": "devolverían" },
+  "subjunctive": { "yo": "devuelva", "tú": "devuelvas", "él": "devuelva", "nosotros": "devolvamos", "vosotros": "devolváis", "ellos": "devuelvan" }
+},
+"doler": {
+  "english": "to hurt/ache",
+  "present": { "yo": "duelo", "tú": "dueles", "él": "duele", "nosotros": "dolemos", "vosotros": "doléis", "ellos": "duelen" },
+  "preterite": { "yo": "dolí", "tú": "doliste", "él": "dolió", "nosotros": "dolimos", "vosotros": "dolisteis", "ellos": "dolieron" },
+  "imperfect": { "yo": "dolía", "tú": "dolías", "él": "dolía", "nosotros": "dolíamos", "vosotros": "dolíais", "ellos": "dolían" },
+  "future": { "yo": "doleré", "tú": "dolerás", "él": "dolerá", "nosotros": "doleremos", "vosotros": "doleréis", "ellos": "dolerán" },
+  "conditional": { "yo": "dolería", "tú": "dolerías", "él": "dolería", "nosotros": "doleríamos", "vosotros": "doleríais", "ellos": "dolerían" },
+  "subjunctive": { "yo": "duela", "tú": "duelas", "él": "duela", "nosotros": "dolamos", "vosotros": "doláis", "ellos": "duelan" }
+},
+"meter": {
+  "english": "to put in/insert",
+  "present": { "yo": "meto", "tú": "metes", "él": "mete", "nosotros": "metemos", "vosotros": "metéis", "ellos": "meten" },
+  "preterite": { "yo": "metí", "tú": "metiste", "él": "metió", "nosotros": "metimos", "vosotros": "metisteis", "ellos": "metieron" },
+  "imperfect": { "yo": "metía", "tú": "metías", "él": "metía", "nosotros": "metíamos", "vosotros": "metíais", "ellos": "metían" },
+  "future": { "yo": "meteré", "tú": "meterás", "él": "meterá", "nosotros": "meteremos", "vosotros": "meteréis", "ellos": "meterán" },
+  "conditional": { "yo": "metería", "tú": "meterías", "él": "metería", "nosotros": "meteríamos", "vosotros": "meteríais", "ellos": "meterían" },
+  "subjunctive": { "yo": "meta", "tú": "metas", "él": "meta", "nosotros": "metamos", "vosotros": "metáis", "ellos": "metan" }
+},
+"responder": {
+  "english": "to respond/answer",
+  "present": { "yo": "respondo", "tú": "respondes", "él": "responde", "nosotros": "respondemos", "vosotros": "respondéis", "ellos": "responden" },
+  "preterite": { "yo": "respondí", "tú": "respondiste", "él": "respondió", "nosotros": "respondimos", "vosotros": "respondisteis", "ellos": "respondieron" },
+  "imperfect": { "yo": "respondía", "tú": "respondías", "él": "respondía", "nosotros": "respondíamos", "vosotros": "respondíais", "ellos": "respondían" },
+  "future": { "yo": "responderé", "tú": "responderás", "él": "responderá", "nosotros": "responderemos", "vosotros": "responderéis", "ellos": "responderán" },
+  "conditional": { "yo": "respondería", "tú": "responderías", "él": "respondería", "nosotros": "responderíamos", "vosotros": "responderíais", "ellos": "responderían" },
+  "subjunctive": { "yo": "responda", "tú": "respondas", "él": "responda", "nosotros": "respondamos", "vosotros": "respondáis", "ellos": "respondan" }
+},
+"defender": {
+  "english": "to defend",
+  "present": { "yo": "defiendo", "tú": "defiendes", "él": "defiende", "nosotros": "defendemos", "vosotros": "defendéis", "ellos": "defienden" },
+  "preterite": { "yo": "defendí", "tú": "defendiste", "él": "defendió", "nosotros": "defendimos", "vosotros": "defendisteis", "ellos": "defendieron" },
+  "imperfect": { "yo": "defendía", "tú": "defendías", "él": "defendía", "nosotros": "defendíamos", "vosotros": "defendíais", "ellos": "defendían" },
+  "future": { "yo": "defenderé", "tú": "defenderás", "él": "defenderá", "nosotros": "defenderemos", "vosotros": "defenderéis", "ellos": "defenderán" },
+  "conditional": { "yo": "defendería", "tú": "defenderías", "él": "defendería", "nosotros": "defenderíamos", "vosotros": "defenderíais", "ellos": "defenderían" },
+  "subjunctive": { "yo": "defienda", "tú": "defiendas", "él": "defienda", "nosotros": "defendamos", "vosotros": "defendáis", "ellos": "defiendan" }
+},
+"proteger": {
+  "english": "to protect",
+  "present": { "yo": "protejo", "tú": "proteges", "él": "protege", "nosotros": "protegemos", "vosotros": "protegéis", "ellos": "protegen" },
+  "preterite": { "yo": "protegí", "tú": "protegiste", "él": "protegió", "nosotros": "protegimos", "vosotros": "protegisteis", "ellos": "protegieron" },
+  "imperfect": { "yo": "protegía", "tú": "protegías", "él": "protegía", "nosotros": "protegíamos", "vosotros": "protegíais", "ellos": "protegían" },
+  "future": { "yo": "protegeré", "tú": "protegerás", "él": "protegerá", "nosotros": "protegeremos", "vosotros": "protegeréis", "ellos": "protegerán" },
+  "conditional": { "yo": "protegería", "tú": "protegerías", "él": "protegería", "nosotros": "protegeríamos", "vosotros": "protegeríais", "ellos": "protegerían" },
+  "subjunctive": { "yo": "proteja", "tú": "protejas", "él": "proteja", "nosotros": "protejamos", "vosotros": "protejáis", "ellos": "protejan" }
+},
+"recoger": {
+  "english": "to pick up/collect",
+  "present": { "yo": "recojo", "tú": "recoges", "él": "recoge", "nosotros": "recogemos", "vosotros": "recogéis", "ellos": "recogen" },
+  "preterite": { "yo": "recogí", "tú": "recogiste", "él": "recogió", "nosotros": "recogimos", "vosotros": "recogisteis", "ellos": "recogieron" },
+  "imperfect": { "yo": "recogía", "tú": "recogías", "él": "recogía", "nosotros": "recogíamos", "vosotros": "recogíais", "ellos": "recogían" },
+  "future": { "yo": "recogeré", "tú": "recogerás", "él": "recogerá", "nosotros": "recogeremos", "vosotros": "recogeréis", "ellos": "recogerán" },
+  "conditional": { "yo": "recogería", "tú": "recogerías", "él": "recogería", "nosotros": "recogeríamos", "vosotros": "recogeríais", "ellos": "recogerían" },
+  "subjunctive": { "yo": "recoja", "tú": "recojas", "él": "recoja", "nosotros": "recojamos", "vosotros": "recojáis", "ellos": "recojan" }
+},
+"convencer": {
+  "english": "to convince",
+  "present": { "yo": "convenzo", "tú": "convences", "él": "convence", "nosotros": "convencemos", "vosotros": "convencéis", "ellos": "convencen" },
+  "preterite": { "yo": "convencí", "tú": "convenciste", "él": "convenció", "nosotros": "convencimos", "vosotros": "convencisteis", "ellos": "convencieron" },
+  "imperfect": { "yo": "convencía", "tú": "convencías", "él": "convencía", "nosotros": "convencíamos", "vosotros": "convencíais", "ellos": "convencían" },
+  "future": { "yo": "convenceré", "tú": "convencerás", "él": "convencerá", "nosotros": "convenceremos", "vosotros": "convenceréis", "ellos": "convencerán" },
+  "conditional": { "yo": "convencería", "tú": "convencerías", "él": "convencería", "nosotros": "convenceríamos", "vosotros": "convenceríais", "ellos": "convencerían" },
+  "subjunctive": { "yo": "convenza", "tú": "convenzas", "él": "convenza", "nosotros": "convenzamos", "vosotros": "convenzáis", "ellos": "convenzan" }
+},
+"gastar": {
+  "english": "to spend/waste",
+  "present": { "yo": "gasto", "tú": "gastas", "él": "gasta", "nosotros": "gastamos", "vosotros": "gastáis", "ellos": "gastan" },
+  "preterite": { "yo": "gasté", "tú": "gastaste", "él": "gastó", "nosotros": "gastamos", "vosotros": "gastasteis", "ellos": "gastaron" },
+  "imperfect": { "yo": "gastaba", "tú": "gastabas", "él": "gastaba", "nosotros": "gastábamos", "vosotros": "gastabais", "ellos": "gastaban" },
+  "future": { "yo": "gastaré", "tú": "gastarás", "él": "gastará", "nosotros": "gastaremos", "vosotros": "gastaréis", "ellos": "gastarán" },
+  "conditional": { "yo": "gastaría", "tú": "gastarías", "él": "gastaría", "nosotros": "gastaríamos", "vosotros": "gastaríais", "ellos": "gastarían" },
+  "subjunctive": { "yo": "gaste", "tú": "gastes", "él": "gaste", "nosotros": "gastemos", "vosotros": "gastéis", "ellos": "gasten" }
+},
+"descansar": {
+  "english": "to rest",
+  "present": { "yo": "descanso", "tú": "descansas", "él": "descansa", "nosotros": "descansamos", "vosotros": "descansáis", "ellos": "descansan" },
+  "preterite": { "yo": "descansé", "tú": "descansaste", "él": "descansó", "nosotros": "descansamos", "vosotros": "descansasteis", "ellos": "descansaron" },
+  "imperfect": { "yo": "descansaba", "tú": "descansabas", "él": "descansaba", "nosotros": "descansábamos", "vosotros": "descansabais", "ellos": "descansaban" },
+  "future": { "yo": "descansaré", "tú": "descansarás", "él": "descansará", "nosotros": "descansaremos", "vosotros": "descansaréis", "ellos": "descansarán" },
+  "conditional": { "yo": "descansaría", "tú": "descansarías", "él": "descansaría", "nosotros": "descansaríamos", "vosotros": "descansaríais", "ellos": "descansarían" },
+  "subjunctive": { "yo": "descanse", "tú": "descanses", "él": "descanse", "nosotros": "descansemos", "vosotros": "descanséis", "ellos": "descansen" }
+},
+"despertar": {
+  "english": "to wake up",
+  "present": { "yo": "despierto", "tú": "despiertas", "él": "despierta", "nosotros": "despertamos", "vosotros": "despertáis", "ellos": "despiertan" },
+  "preterite": { "yo": "desperté", "tú": "despertaste", "él": "despertó", "nosotros": "despertamos", "vosotros": "despertasteis", "ellos": "despertaron" },
+  "imperfect": { "yo": "despertaba", "tú": "despertabas", "él": "despertaba", "nosotros": "despertábamos", "vosotros": "despertabais", "ellos": "despertaban" },
+  "future": { "yo": "despertaré", "tú": "despertarás", "él": "despertará", "nosotros": "despertaremos", "vosotros": "despertaréis", "ellos": "despertarán" },
+  "conditional": { "yo": "despertaría", "tú": "despertarías", "él": "despertaría", "nosotros": "despertaríamos", "vosotros": "despertaríais", "ellos": "despertarían" },
+  "subjunctive": { "yo": "despierte", "tú": "despiertes", "él": "despierte", "nosotros": "despertemos", "vosotros": "despertéis", "ellos": "despierten" }
+},
+"acordar": {
+  "english": "to agree/remember",
+  "present": { "yo": "acuerdo", "tú": "acuerdas", "él": "acuerda", "nosotros": "acordamos", "vosotros": "acordáis", "ellos": "acuerdan" },
+  "preterite": { "yo": "acordé", "tú": "acordaste", "él": "acordó", "nosotros": "acordamos", "vosotros": "acordasteis", "ellos": "acordaron" },
+  "imperfect": { "yo": "acordaba", "tú": "acordabas", "él": "acordaba", "nosotros": "acordábamos", "vosotros": "acordabais", "ellos": "acordaban" },
+  "future": { "yo": "acordaré", "tú": "acordarás", "él": "acordará", "nosotros": "acordaremos", "vosotros": "acordaréis", "ellos": "acordarán" },
+  "conditional": { "yo": "acordaría", "tú": "acordarías", "él": "acordaría", "nosotros": "acordaríamos", "vosotros": "acordaríais", "ellos": "acordarían" },
+  "subjunctive": { "yo": "acuerde", "tú": "acuerdes", "él": "acuerde", "nosotros": "acordemos", "vosotros": "acordéis", "ellos": "acuerden" }
+},
+"acostar": {
+  "english": "to lay down/put to bed",
+  "present": { "yo": "acuesto", "tú": "acuestas", "él": "acuesta", "nosotros": "acostamos", "vosotros": "acostáis", "ellos": "acuestan" },
+  "preterite": { "yo": "acosté", "tú": "acostaste", "él": "acostó", "nosotros": "acostamos", "vosotros": "acostasteis", "ellos": "acostaron" },
+  "imperfect": { "yo": "acostaba", "tú": "acostabas", "él": "acostaba", "nosotros": "acostábamos", "vosotros": "acostabais", "ellos": "acostaban" },
+  "future": { "yo": "acostaré", "tú": "acostarás", "él": "acostará", "nosotros": "acostaremos", "vosotros": "acostaréis", "ellos": "acostarán" },
+  "conditional": { "yo": "acostaría", "tú": "acostarías", "él": "acostaría", "nosotros": "acostaríamos", "vosotros": "acostaríais", "ellos": "acostarían" },
+  "subjunctive": { "yo": "acueste", "tú": "acuestes", "él": "acueste", "nosotros": "acostemos", "vosotros": "acostéis", "ellos": "acuesten" }
+},
+"almorzar": {
+  "english": "to have lunch",
+  "present": { "yo": "almuerzo", "tú": "almuerzas", "él": "almuerza", "nosotros": "almorzamos", "vosotros": "almorzáis", "ellos": "almuerzan" },
+  "preterite": { "yo": "almorcé", "tú": "almorzaste", "él": "almorzó", "nosotros": "almorzamos", "vosotros": "almorzasteis", "ellos": "almorzaron" },
+  "imperfect": { "yo": "almorzaba", "tú": "almorzabas", "él": "almorzaba", "nosotros": "almorzábamos", "vosotros": "almorzabais", "ellos": "almorzaban" },
+  "future": { "yo": "almorzaré", "tú": "almorzarás", "él": "almorzará", "nosotros": "almorzaremos", "vosotros": "almorzaréis", "ellos": "almorzarán" },
+  "conditional": { "yo": "almorzaría", "tú": "almorzarías", "él": "almorzaría", "nosotros": "almorzaríamos", "vosotros": "almorzaríais", "ellos": "almorzarían" },
+  "subjunctive": { "yo": "almuerce", "tú": "almuerces", "él": "almuerce", "nosotros": "almorcemos", "vosotros": "almorcéis", "ellos": "almuercen" }
+},
+"robar": {
+  "english": "to steal/rob",
+  "present": { "yo": "robo", "tú": "robas", "él": "roba", "nosotros": "robamos", "vosotros": "robáis", "ellos": "roban" },
+  "preterite": { "yo": "robé", "tú": "robaste", "él": "robó", "nosotros": "robamos", "vosotros": "robasteis", "ellos": "robaron" },
+  "imperfect": { "yo": "robaba", "tú": "robabas", "él": "robaba", "nosotros": "robábamos", "vosotros": "robabais", "ellos": "robaban" },
+  "future": { "yo": "robaré", "tú": "robarás", "él": "robará", "nosotros": "robaremos", "vosotros": "robaréis", "ellos": "robarán" },
+  "conditional": { "yo": "robaría", "tú": "robarías", "él": "robaría", "nosotros": "robaríamos", "vosotros": "robaríais", "ellos": "robarían" },
+  "subjunctive": { "yo": "robe", "tú": "robes", "él": "robe", "nosotros": "robemos", "vosotros": "robéis", "ellos": "roben" }
+},
+"llenar": {
+  "english": "to fill",
+  "present": { "yo": "lleno", "tú": "llenas", "él": "llena", "nosotros": "llenamos", "vosotros": "llenáis", "ellos": "llenan" },
+  "preterite": { "yo": "llené", "tú": "llenaste", "él": "llenó", "nosotros": "llenamos", "vosotros": "llenasteis", "ellos": "llenaron" },
+  "imperfect": { "yo": "llenaba", "tú": "llenabas", "él": "llenaba", "nosotros": "llenábamos", "vosotros": "llenabais", "ellos": "llenaban" },
+  "future": { "yo": "llenaré", "tú": "llenarás", "él": "llenará", "nosotros": "llenaremos", "vosotros": "llenaréis", "ellos": "llenarán" },
+  "conditional": { "yo": "llenaría", "tú": "llenarías", "él": "llenaría", "nosotros": "llenaríamos", "vosotros": "llenaríais", "ellos": "llenarían" },
+  "subjunctive": { "yo": "llene", "tú": "llenes", "él": "llene", "nosotros": "llenemos", "vosotros": "llenéis", "ellos": "llenen" }
+},
+"guardar": {
+  "english": "to keep/save",
+  "present": { "yo": "guardo", "tú": "guardas", "él": "guarda", "nosotros": "guardamos", "vosotros": "guardáis", "ellos": "guardan" },
+  "preterite": { "yo": "guardé", "tú": "guardaste", "él": "guardó", "nosotros": "guardamos", "vosotros": "guardasteis", "ellos": "guardaron" },
+  "imperfect": { "yo": "guardaba", "tú": "guardabas", "él": "guardaba", "nosotros": "guardábamos", "vosotros": "guardabais", "ellos": "guardaban" },
+  "future": { "yo": "guardaré", "tú": "guardarás", "él": "guardará", "nosotros": "guardaremos", "vosotros": "guardaréis", "ellos": "guardarán" },
+  "conditional": { "yo": "guardaría", "tú": "guardarías", "él": "guardaría", "nosotros": "guardaríamos", "vosotros": "guardaríais", "ellos": "guardarían" },
+  "subjunctive": { "yo": "guarde", "tú": "guardes", "él": "guarde", "nosotros": "guardemos", "vosotros": "guardéis", "ellos": "guarden" }
+},
+"aumentar": {
+  "english": "to increase",
+  "present": { "yo": "aumento", "tú": "aumentas", "él": "aumenta", "nosotros": "aumentamos", "vosotros": "aumentáis", "ellos": "aumentan" },
+  "preterite": { "yo": "aumenté", "tú": "aumentaste", "él": "aumentó", "nosotros": "aumentamos", "vosotros": "aumentasteis", "ellos": "aumentaron" },
+  "imperfect": { "yo": "aumentaba", "tú": "aumentabas", "él": "aumentaba", "nosotros": "aumentábamos", "vosotros": "aumentabais", "ellos": "aumentaban" },
+  "future": { "yo": "aumentaré", "tú": "aumentarás", "él": "aumentará", "nosotros": "aumentaremos", "vosotros": "aumentaréis", "ellos": "aumentarán" },
+  "conditional": { "yo": "aumentaría", "tú": "aumentarías", "él": "aumentaría", "nosotros": "aumentaríamos", "vosotros": "aumentaríais", "ellos": "aumentarían" },
+  "subjunctive": { "yo": "aumente", "tú": "aumentes", "él": "aumente", "nosotros": "aumentemos", "vosotros": "aumentéis", "ellos": "aumenten" }
+},
+"matar": {
+  "english": "to kill",
+  "present": { "yo": "mato", "tú": "matas", "él": "mata", "nosotros": "matamos", "vosotros": "matáis", "ellos": "matan" },
+  "preterite": { "yo": "maté", "tú": "mataste", "él": "mató", "nosotros": "matamos", "vosotros": "matasteis", "ellos": "mataron" },
+  "imperfect": { "yo": "mataba", "tú": "matabas", "él": "mataba", "nosotros": "matábamos", "vosotros": "matabais", "ellos": "mataban" },
+  "future": { "yo": "mataré", "tú": "matarás", "él": "matará", "nosotros": "mataremos", "vosotros": "mataréis", "ellos": "matarán" },
+  "conditional": { "yo": "mataría", "tú": "matarías", "él": "mataría", "nosotros": "mataríamos", "vosotros": "mataríais", "ellos": "matarían" },
+  "subjunctive": { "yo": "mate", "tú": "mates", "él": "mate", "nosotros": "matemos", "vosotros": "matéis", "ellos": "maten" }
+},
+"reducir": {
+  "english": "to reduce",
+  "present": { "yo": "reduzco", "tú": "reduces", "él": "reduce", "nosotros": "reducimos", "vosotros": "reducís", "ellos": "reducen" },
+  "preterite": { "yo": "reduje", "tú": "redujiste", "él": "redujo", "nosotros": "redujimos", "vosotros": "redujisteis", "ellos": "redujeron" },
+  "imperfect": { "yo": "reducía", "tú": "reducías", "él": "reducía", "nosotros": "reducíamos", "vosotros": "reducíais", "ellos": "reducían" },
+  "future": { "yo": "reduciré", "tú": "reducirás", "él": "reducirá", "nosotros": "reduciremos", "vosotros": "reduciréis", "ellos": "reducirán" },
+  "conditional": { "yo": "reduciría", "tú": "reducirías", "él": "reduciría", "nosotros": "reduciríamos", "vosotros": "reduciríais", "ellos": "reducirían" },
+  "subjunctive": { "yo": "reduzca", "tú": "reduzcas", "él": "reduzca", "nosotros": "reduzcamos", "vosotros": "reduzcáis", "ellos": "reduzcan" }
+},
+"mentir": {
+  "english": "to lie/deceive",
+  "present": { "yo": "miento", "tú": "mientes", "él": "miente", "nosotros": "mentimos", "vosotros": "mentís", "ellos": "mienten" },
+  "preterite": { "yo": "mentí", "tú": "mentiste", "él": "mintió", "nosotros": "mentimos", "vosotros": "mentisteis", "ellos": "mintieron" },
+  "imperfect": { "yo": "mentía", "tú": "mentías", "él": "mentía", "nosotros": "mentíamos", "vosotros": "mentíais", "ellos": "mentían" },
+  "future": { "yo": "mentiré", "tú": "mentirás", "él": "mentirá", "nosotros": "mentiremos", "vosotros": "mentiréis", "ellos": "mentirán" },
+  "conditional": { "yo": "mentiría", "tú": "mentirías", "él": "mentiría", "nosotros": "mentiríamos", "vosotros": "mentiríais", "ellos": "mentirían" },
+  "subjunctive": { "yo": "mienta", "tú": "mientas", "él": "mienta", "nosotros": "mintamos", "vosotros": "mintáis", "ellos": "mientan" }
+},
+"continuar": {
+  "english": "to continue",
+  "present": { "yo": "continúo", "tú": "continúas", "él": "continúa", "nosotros": "continuamos", "vosotros": "continuáis", "ellos": "continúan" },
+  "preterite": { "yo": "continué", "tú": "continuaste", "él": "continuó", "nosotros": "continuamos", "vosotros": "continuasteis", "ellos": "continuaron" },
+  "imperfect": { "yo": "continuaba", "tú": "continuabas", "él": "continuaba", "nosotros": "continuábamos", "vosotros": "continuabais", "ellos": "continuaban" },
+  "future": { "yo": "continuaré", "tú": "continuarás", "él": "continuará", "nosotros": "continuaremos", "vosotros": "continuaréis", "ellos": "continuarán" },
+  "conditional": { "yo": "continuaría", "tú": "continuarías", "él": "continuaría", "nosotros": "continuaríamos", "vosotros": "continuaríais", "ellos": "continuarían" },
+  "subjunctive": { "yo": "continúe", "tú": "continúes", "él": "continúe", "nosotros": "continuemos", "vosotros": "continuéis", "ellos": "continúen" }
+},
+"cruzar": {
+  "english": "to cross",
+  "present": { "yo": "cruzo", "tú": "cruzas", "él": "cruza", "nosotros": "cruzamos", "vosotros": "cruzáis", "ellos": "cruzan" },
+  "preterite": { "yo": "crucé", "tú": "cruzaste", "él": "cruzó", "nosotros": "cruzamos", "vosotros": "cruzasteis", "ellos": "cruzaron" },
+  "imperfect": { "yo": "cruzaba", "tú": "cruzabas", "él": "cruzaba", "nosotros": "cruzábamos", "vosotros": "cruzabais", "ellos": "cruzaban" },
+  "future": { "yo": "cruzaré", "tú": "cruzarás", "él": "cruzará", "nosotros": "cruzaremos", "vosotros": "cruzaréis", "ellos": "cruzarán" },
+  "conditional": { "yo": "cruzaría", "tú": "cruzarías", "él": "cruzaría", "nosotros": "cruzaríamos", "vosotros": "cruzaríais", "ellos": "cruzarían" },
+  "subjunctive": { "yo": "cruce", "tú": "cruces", "él": "cruce", "nosotros": "crucemos", "vosotros": "crucéis", "ellos": "crucen" }
+},
+"alcanzar": {
+  "english": "to reach/achieve",
+  "present": { "yo": "alcanzo", "tú": "alcanzas", "él": "alcanza", "nosotros": "alcanzamos", "vosotros": "alcanzáis", "ellos": "alcanzan" },
+  "preterite": { "yo": "alcancé", "tú": "alcanzaste", "él": "alcanzó", "nosotros": "alcanzamos", "vosotros": "alcanzasteis", "ellos": "alcanzaron" },
+  "imperfect": { "yo": "alcanzaba", "tú": "alcanzabas", "él": "alcanzaba", "nosotros": "alcanzábamos", "vosotros": "alcanzabais", "ellos": "alcanzaban" },
+  "future": { "yo": "alcanzaré", "tú": "alcanzarás", "él": "alcanzará", "nosotros": "alcanzaremos", "vosotros": "alcanzaréis", "ellos": "alcanzarán" },
+  "conditional": { "yo": "alcanzaría", "tú": "alcanzarías", "él": "alcanzaría", "nosotros": "alcanzaríamos", "vosotros": "alcanzaríais", "ellos": "alcanzarían" },
+  "subjunctive": { "yo": "alcance", "tú": "alcances", "él": "alcance", "nosotros": "alcancemos", "vosotros": "alcancéis", "ellos": "alcancen" }
+},
+"organizar": {
+  "english": "to organize",
+  "present": { "yo": "organizo", "tú": "organizas", "él": "organiza", "nosotros": "organizamos", "vosotros": "organizáis", "ellos": "organizan" },
+  "preterite": { "yo": "organicé", "tú": "organizaste", "él": "organizó", "nosotros": "organizamos", "vosotros": "organizasteis", "ellos": "organizaron" },
+  "imperfect": { "yo": "organizaba", "tú": "organizabas", "él": "organizaba", "nosotros": "organizábamos", "vosotros": "organizabais", "ellos": "organizaban" },
+  "future": { "yo": "organizaré", "tú": "organizarás", "él": "organizará", "nosotros": "organizaremos", "vosotros": "organizaréis", "ellos": "organizarán" },
+  "conditional": { "yo": "organizaría", "tú": "organizarías", "él": "organizaría", "nosotros": "organizaríamos", "vosotros": "organizaríais", "ellos": "organizarían" },
+  "subjunctive": { "yo": "organice", "tú": "organices", "él": "organice", "nosotros": "organicemos", "vosotros": "organicéis", "ellos": "organicen" }
+},
+"lanzar": {
+  "english": "to throw/launch",
+  "present": { "yo": "lanzo", "tú": "lanzas", "él": "lanza", "nosotros": "lanzamos", "vosotros": "lanzáis", "ellos": "lanzan" },
+  "preterite": { "yo": "lancé", "tú": "lanzaste", "él": "lanzó", "nosotros": "lanzamos", "vosotros": "lanzasteis", "ellos": "lanzaron" },
+  "imperfect": { "yo": "lanzaba", "tú": "lanzabas", "él": "lanzaba", "nosotros": "lanzábamos", "vosotros": "lanzabais", "ellos": "lanzaban" },
+  "future": { "yo": "lanzaré", "tú": "lanzarás", "él": "lanzará", "nosotros": "lanzaremos", "vosotros": "lanzaréis", "ellos": "lanzarán" },
+  "conditional": { "yo": "lanzaría", "tú": "lanzarías", "él": "lanzaría", "nosotros": "lanzaríamos", "vosotros": "lanzaríais", "ellos": "lanzarían" },
+  "subjunctive": { "yo": "lance", "tú": "lances", "él": "lance", "nosotros": "lancemos", "vosotros": "lancéis", "ellos": "lancen" }
+},
+"señalar": {
+  "english": "to point out/indicate",
+  "present": { "yo": "señalo", "tú": "señalas", "él": "señala", "nosotros": "señalamos", "vosotros": "señaláis", "ellos": "señalan" },
+  "preterite": { "yo": "señalé", "tú": "señalaste", "él": "señaló", "nosotros": "señalamos", "vosotros": "señalasteis", "ellos": "señalaron" },
+  "imperfect": { "yo": "señalaba", "tú": "señalabas", "él": "señalaba", "nosotros": "señalábamos", "vosotros": "señalabais", "ellos": "señalaban" },
+  "future": { "yo": "señalaré", "tú": "señalarás", "él": "señalará", "nosotros": "señalaremos", "vosotros": "señalaréis", "ellos": "señalarán" },
+  "conditional": { "yo": "señalaría", "tú": "señalarías", "él": "señalaría", "nosotros": "señalaríamos", "vosotros": "señalaríais", "ellos": "señalarían" },
+  "subjunctive": { "yo": "señale", "tú": "señales", "él": "señale", "nosotros": "señalemos", "vosotros": "señaléis", "ellos": "señalen" }
+},
+"regresar": {
+  "english": "to return/go back",
+  "present": { "yo": "regreso", "tú": "regresas", "él": "regresa", "nosotros": "regresamos", "vosotros": "regresáis", "ellos": "regresan" },
+  "preterite": { "yo": "regresé", "tú": "regresaste", "él": "regresó", "nosotros": "regresamos", "vosotros": "regresasteis", "ellos": "regresaron" },
+  "imperfect": { "yo": "regresaba", "tú": "regresabas", "él": "regresaba", "nosotros": "regresábamos", "vosotros": "regresabais", "ellos": "regresaban" },
+  "future": { "yo": "regresaré", "tú": "regresarás", "él": "regresará", "nosotros": "regresaremos", "vosotros": "regresaréis", "ellos": "regresarán" },
+  "conditional": { "yo": "regresaría", "tú": "regresarías", "él": "regresaría", "nosotros": "regresaríamos", "vosotros": "regresaríais", "ellos": "regresarían" },
+  "subjunctive": { "yo": "regrese", "tú": "regreses", "él": "regrese", "nosotros": "regresemos", "vosotros": "regreséis", "ellos": "regresen" }
+},
+"contestar": {
+  "english": "to answer",
+  "present": { "yo": "contesto", "tú": "contestas", "él": "contesta", "nosotros": "contestamos", "vosotros": "contestáis", "ellos": "contestan" },
+  "preterite": { "yo": "contesté", "tú": "contestaste", "él": "contestó", "nosotros": "contestamos", "vosotros": "contestasteis", "ellos": "contestaron" },
+  "imperfect": { "yo": "contestaba", "tú": "contestabas", "él": "contestaba", "nosotros": "contestábamos", "vosotros": "contestabais", "ellos": "contestaban" },
+  "future": { "yo": "contestaré", "tú": "contestarás", "él": "contestará", "nosotros": "contestaremos", "vosotros": "contestaréis", "ellos": "contestarán" },
+  "conditional": { "yo": "contestaría", "tú": "contestarías", "él": "contestaría", "nosotros": "contestaríamos", "vosotros": "contestaríais", "ellos": "contestarían" },
+  "subjunctive": { "yo": "conteste", "tú": "contestes", "él": "conteste", "nosotros": "contestemos", "vosotros": "contestéis", "ellos": "contesten" }
+},
+"gritar": {
+  "english": "to shout/scream",
+  "present": { "yo": "grito", "tú": "gritas", "él": "grita", "nosotros": "gritamos", "vosotros": "gritáis", "ellos": "gritan" },
+  "preterite": { "yo": "grité", "tú": "gritaste", "él": "gritó", "nosotros": "gritamos", "vosotros": "gritasteis", "ellos": "gritaron" },
+  "imperfect": { "yo": "gritaba", "tú": "gritabas", "él": "gritaba", "nosotros": "gritábamos", "vosotros": "gritabais", "ellos": "gritaban" },
+  "future": { "yo": "gritaré", "tú": "gritarás", "él": "gritará", "nosotros": "gritaremos", "vosotros": "gritaréis", "ellos": "gritarán" },
+  "conditional": { "yo": "gritaría", "tú": "gritarías", "él": "gritaría", "nosotros": "gritaríamos", "vosotros": "gritaríais", "ellos": "gritarían" },
+  "subjunctive": { "yo": "grite", "tú": "grites", "él": "grite", "nosotros": "gritemos", "vosotros": "gritéis", "ellos": "griten" }
+},
+"cortar": {
+  "english": "to cut",
+  "present": { "yo": "corto", "tú": "cortas", "él": "corta", "nosotros": "cortamos", "vosotros": "cortáis", "ellos": "cortan" },
+  "preterite": { "yo": "corté", "tú": "cortaste", "él": "cortó", "nosotros": "cortamos", "vosotros": "cortasteis", "ellos": "cortaron" },
+  "imperfect": { "yo": "cortaba", "tú": "cortabas", "él": "cortaba", "nosotros": "cortábamos", "vosotros": "cortabais", "ellos": "cortaban" },
+  "future": { "yo": "cortaré", "tú": "cortarás", "él": "cortará", "nosotros": "cortaremos", "vosotros": "cortaréis", "ellos": "cortarán" },
+  "conditional": { "yo": "cortaría", "tú": "cortarías", "él": "cortaría", "nosotros": "cortaríamos", "vosotros": "cortaríais", "ellos": "cortarían" },
+  "subjunctive": { "yo": "corte", "tú": "cortes", "él": "corte", "nosotros": "cortemos", "vosotros": "cortéis", "ellos": "corten" }
+},
+"dibujar": {
+  "english": "to draw",
+  "present": { "yo": "dibujo", "tú": "dibujas", "él": "dibuja", "nosotros": "dibujamos", "vosotros": "dibujáis", "ellos": "dibujan" },
+  "preterite": { "yo": "dibujé", "tú": "dibujaste", "él": "dibujó", "nosotros": "dibujamos", "vosotros": "dibujasteis", "ellos": "dibujaron" },
+  "imperfect": { "yo": "dibujaba", "tú": "dibujabas", "él": "dibujaba", "nosotros": "dibujábamos", "vosotros": "dibujabais", "ellos": "dibujaban" },
+  "future": { "yo": "dibujaré", "tú": "dibujarás", "él": "dibujará", "nosotros": "dibujaremos", "vosotros": "dibujaréis", "ellos": "dibujarán" },
+  "conditional": { "yo": "dibujaría", "tú": "dibujarías", "él": "dibujaría", "nosotros": "dibujaríamos", "vosotros": "dibujaríais", "ellos": "dibujarían" },
+  "subjunctive": { "yo": "dibuje", "tú": "dibujes", "él": "dibuje", "nosotros": "dibujemos", "vosotros": "dibujéis", "ellos": "dibujen" }
+},
+"pintar": {
+  "english": "to paint",
+  "present": { "yo": "pinto", "tú": "pintas", "él": "pinta", "nosotros": "pintamos", "vosotros": "pintáis", "ellos": "pintan" },
+  "preterite": { "yo": "pinté", "tú": "pintaste", "él": "pintó", "nosotros": "pintamos", "vosotros": "pintasteis", "ellos": "pintaron" },
+  "imperfect": { "yo": "pintaba", "tú": "pintabas", "él": "pintaba", "nosotros": "pintábamos", "vosotros": "pintabais", "ellos": "pintaban" },
+  "future": { "yo": "pintaré", "tú": "pintarás", "él": "pintará", "nosotros": "pintaremos", "vosotros": "pintaréis", "ellos": "pintarán" },
+  "conditional": { "yo": "pintaría", "tú": "pintarías", "él": "pintaría", "nosotros": "pintaríamos", "vosotros": "pintaríais", "ellos": "pintarían" },
+  "subjunctive": { "yo": "pinte", "tú": "pintes", "él": "pinte", "nosotros": "pintemos", "vosotros": "pintéis", "ellos": "pinten" }
+},
+"calentar": {
+  "english": "to heat/warm",
+  "present": { "yo": "caliento", "tú": "calientas", "él": "calienta", "nosotros": "calentamos", "vosotros": "calentáis", "ellos": "calientan" },
+  "preterite": { "yo": "calenté", "tú": "calentaste", "él": "calentó", "nosotros": "calentamos", "vosotros": "calentasteis", "ellos": "calentaron" },
+  "imperfect": { "yo": "calentaba", "tú": "calentabas", "él": "calentaba", "nosotros": "calentábamos", "vosotros": "calentabais", "ellos": "calentaban" },
+  "future": { "yo": "calentaré", "tú": "calentarás", "él": "calentará", "nosotros": "calentaremos", "vosotros": "calentaréis", "ellos": "calentarán" },
+  "conditional": { "yo": "calentaría", "tú": "calentarías", "él": "calentaría", "nosotros": "calentaríamos", "vosotros": "calentaríais", "ellos": "calentarían" },
+  "subjunctive": { "yo": "caliente", "tú": "calientes", "él": "caliente", "nosotros": "calentemos", "vosotros": "calentéis", "ellos": "calienten" }
+},
+"tirar": {
+  "english": "to throw/pull",
+  "present": { "yo": "tiro", "tú": "tiras", "él": "tira", "nosotros": "tiramos", "vosotros": "tiráis", "ellos": "tiran" },
+  "preterite": { "yo": "tiré", "tú": "tiraste", "él": "tiró", "nosotros": "tiramos", "vosotros": "tirasteis", "ellos": "tiraron" },
+  "imperfect": { "yo": "tiraba", "tú": "tirabas", "él": "tiraba", "nosotros": "tirábamos", "vosotros": "tirabais", "ellos": "tiraban" },
+  "future": { "yo": "tiraré", "tú": "tirarás", "él": "tirará", "nosotros": "tiraremos", "vosotros": "tiraréis", "ellos": "tirarán" },
+  "conditional": { "yo": "tiraría", "tú": "tirarías", "él": "tiraría", "nosotros": "tiraríamos", "vosotros": "tiraríais", "ellos": "tirarían" },
+  "subjunctive": { "yo": "tire", "tú": "tires", "él": "tire", "nosotros": "tiremos", "vosotros": "tiréis", "ellos": "tiren" }
+},
+"apagar": {
+  "english": "to turn off/extinguish",
+  "present": { "yo": "apago", "tú": "apagas", "él": "apaga", "nosotros": "apagamos", "vosotros": "apagáis", "ellos": "apagan" },
+  "preterite": { "yo": "apagué", "tú": "apagaste", "él": "apagó", "nosotros": "apagamos", "vosotros": "apagasteis", "ellos": "apagaron" },
+  "imperfect": { "yo": "apagaba", "tú": "apagabas", "él": "apagaba", "nosotros": "apagábamos", "vosotros": "apagabais", "ellos": "apagaban" },
+  "future": { "yo": "apagaré", "tú": "apagarás", "él": "apagará", "nosotros": "apagaremos", "vosotros": "apagaréis", "ellos": "apagarán" },
+  "conditional": { "yo": "apagaría", "tú": "apagarías", "él": "apagaría", "nosotros": "apagaríamos", "vosotros": "apagaríais", "ellos": "apagarían" },
+  "subjunctive": { "yo": "apague", "tú": "apagues", "él": "apague", "nosotros": "apaguemos", "vosotros": "apaguéis", "ellos": "apaguen" }
+},
+"encender": {
+  "english": "to light/turn on",
+  "present": { "yo": "enciendo", "tú": "enciendes", "él": "enciende", "nosotros": "encendemos", "vosotros": "encendéis", "ellos": "encienden" },
+  "preterite": { "yo": "encendí", "tú": "encendiste", "él": "encendió", "nosotros": "encendimos", "vosotros": "encendisteis", "ellos": "encendieron" },
+  "imperfect": { "yo": "encendía", "tú": "encendías", "él": "encendía", "nosotros": "encendíamos", "vosotros": "encendíais", "ellos": "encendían" },
+  "future": { "yo": "encenderé", "tú": "encenderás", "él": "encenderá", "nosotros": "encenderemos", "vosotros": "encenderéis", "ellos": "encenderán" },
+  "conditional": { "yo": "encendería", "tú": "encenderías", "él": "encendería", "nosotros": "encenderíamos", "vosotros": "encenderíais", "ellos": "encenderían" },
+  "subjunctive": { "yo": "encienda", "tú": "enciendas", "él": "encienda", "nosotros": "encendamos", "vosotros": "encendáis", "ellos": "enciendan" }
+},
+"mezclar": {
+  "english": "to mix",
+  "present": { "yo": "mezclo", "tú": "mezclas", "él": "mezcla", "nosotros": "mezclamos", "vosotros": "mezcláis", "ellos": "mezclan" },
+  "preterite": { "yo": "mezclé", "tú": "mezclaste", "él": "mezcló", "nosotros": "mezclamos", "vosotros": "mezclasteis", "ellos": "mezclaron" },
+  "imperfect": { "yo": "mezclaba", "tú": "mezclabas", "él": "mezclaba", "nosotros": "mezclábamos", "vosotros": "mezclabais", "ellos": "mezclaban" },
+  "future": { "yo": "mezclaré", "tú": "mezclarás", "él": "mezclará", "nosotros": "mezclaremos", "vosotros": "mezclaréis", "ellos": "mezclarán" },
+  "conditional": { "yo": "mezclaría", "tú": "mezclarías", "él": "mezclaría", "nosotros": "mezclaríamos", "vosotros": "mezclaríais", "ellos": "mezclarían" },
+  "subjunctive": { "yo": "mezcle", "tú": "mezcles", "él": "mezcle", "nosotros": "mezclemos", "vosotros": "mezcléis", "ellos": "mezclen" }
+},
+"separar": {
+  "english": "to separate",
+  "present": { "yo": "separo", "tú": "separas", "él": "separa", "nosotros": "separamos", "vosotros": "separáis", "ellos": "separan" },
+  "preterite": { "yo": "separé", "tú": "separaste", "él": "separó", "nosotros": "separamos", "vosotros": "separasteis", "ellos": "separaron" },
+  "imperfect": { "yo": "separaba", "tú": "separabas", "él": "separaba", "nosotros": "separábamos", "vosotros": "separabais", "ellos": "separaban" },
+  "future": { "yo": "separaré", "tú": "separarás", "él": "separará", "nosotros": "separaremos", "vosotros": "separaréis", "ellos": "separarán" },
+  "conditional": { "yo": "separaría", "tú": "separarías", "él": "separaría", "nosotros": "separaríamos", "vosotros": "separaríais", "ellos": "separarían" },
+  "subjunctive": { "yo": "separe", "tú": "separes", "él": "separe", "nosotros": "separemos", "vosotros": "separéis", "ellos": "separen" }
+},
+"juntar": {
+  "english": "to join/gather",
+  "present": { "yo": "junto", "tú": "juntas", "él": "junta", "nosotros": "juntamos", "vosotros": "juntáis", "ellos": "juntan" },
+  "preterite": { "yo": "junté", "tú": "juntaste", "él": "juntó", "nosotros": "juntamos", "vosotros": "juntasteis", "ellos": "juntaron" },
+  "imperfect": { "yo": "juntaba", "tú": "juntabas", "él": "juntaba", "nosotros": "juntábamos", "vosotros": "juntabais", "ellos": "juntaban" },
+  "future": { "yo": "juntaré", "tú": "juntarás", "él": "juntará", "nosotros": "juntaremos", "vosotros": "juntaréis", "ellos": "juntarán" },
+  "conditional": { "yo": "juntaría", "tú": "juntarías", "él": "juntaría", "nosotros": "juntaríamos", "vosotros": "juntaríais", "ellos": "juntarían" },
+  "subjunctive": { "yo": "junte", "tú": "juntes", "él": "junte", "nosotros": "juntemos", "vosotros": "juntéis", "ellos": "junten" }
+},
+"divertir": {
+  "english": "to amuse/entertain",
+  "present": { "yo": "divierto", "tú": "diviertes", "él": "divierte", "nosotros": "divertimos", "vosotros": "divertís", "ellos": "divierten" },
+  "preterite": { "yo": "divertí", "tú": "divertiste", "él": "divirtió", "nosotros": "divertimos", "vosotros": "divertisteis", "ellos": "divirtieron" },
+  "imperfect": { "yo": "divertía", "tú": "divertías", "él": "divertía", "nosotros": "divertíamos", "vosotros": "divertíais", "ellos": "divertían" },
+  "future": { "yo": "divertiré", "tú": "divertirás", "él": "divertirá", "nosotros": "divertiremos", "vosotros": "divertiréis", "ellos": "divertirán" },
+  "conditional": { "yo": "divertiría", "tú": "divertirías", "él": "divertiría", "nosotros": "divertiríamos", "vosotros": "divertiríais", "ellos": "divertirían" },
+  "subjunctive": { "yo": "divierta", "tú": "diviertas", "él": "divierta", "nosotros": "divirtamos", "vosotros": "divirtáis", "ellos": "diviertan" }
+},
+"encantar": {
+  "english": "to delight/love (something)",
+  "present": { "yo": "encanto", "tú": "encantas", "él": "encanta", "nosotros": "encantamos", "vosotros": "encantáis", "ellos": "encantan" },
+  "preterite": { "yo": "encanté", "tú": "encantaste", "él": "encantó", "nosotros": "encantamos", "vosotros": "encantasteis", "ellos": "encantaron" },
+  "imperfect": { "yo": "encantaba", "tú": "encantabas", "él": "encantaba", "nosotros": "encantábamos", "vosotros": "encantabais", "ellos": "encantaban" },
+  "future": { "yo": "encantaré", "tú": "encantarás", "él": "encantará", "nosotros": "encantaremos", "vosotros": "encantaréis", "ellos": "encantarán" },
+  "conditional": { "yo": "encantaría", "tú": "encantarías", "él": "encantaría", "nosotros": "encantaríamos", "vosotros": "encantaríais", "ellos": "encantarían" },
+  "subjunctive": { "yo": "encante", "tú": "encantes", "él": "encante", "nosotros": "encantemos", "vosotros": "encantéis", "ellos": "encanten" }
+},
+"gustar": {
+  "english": "to please/like",
+  "present": { "yo": "gusto", "tú": "gustas", "él": "gusta", "nosotros": "gustamos", "vosotros": "gustáis", "ellos": "gustan" },
+  "preterite": { "yo": "gusté", "tú": "gustaste", "él": "gustó", "nosotros": "gustamos", "vosotros": "gustasteis", "ellos": "gustaron" },
+  "imperfect": { "yo": "gustaba", "tú": "gustabas", "él": "gustaba", "nosotros": "gustábamos", "vosotros": "gustabais", "ellos": "gustaban" },
+  "future": { "yo": "gustaré", "tú": "gustarás", "él": "gustará", "nosotros": "gustaremos", "vosotros": "gustaréis", "ellos": "gustarán" },
+  "conditional": { "yo": "gustaría", "tú": "gustarías", "él": "gustaría", "nosotros": "gustaríamos", "vosotros": "gustaríais", "ellos": "gustarían" },
+  "subjunctive": { "yo": "guste", "tú": "gustes", "él": "guste", "nosotros": "gustemos", "vosotros": "gustéis", "ellos": "gusten" }
+},
+"molestar": {
+  "english": "to bother/annoy",
+  "present": { "yo": "molesto", "tú": "molestas", "él": "molesta", "nosotros": "molestamos", "vosotros": "molestáis", "ellos": "molestan" },
+  "preterite": { "yo": "molesté", "tú": "molestaste", "él": "molestó", "nosotros": "molestamos", "vosotros": "molestasteis", "ellos": "molestaron" },
+  "imperfect": { "yo": "molestaba", "tú": "molestabas", "él": "molestaba", "nosotros": "molestábamos", "vosotros": "molestabais", "ellos": "molestaban" },
+  "future": { "yo": "molestaré", "tú": "molestarás", "él": "molestará", "nosotros": "molestaremos", "vosotros": "molestaréis", "ellos": "molestarán" },
+  "conditional": { "yo": "molestaría", "tú": "molestarías", "él": "molestaría", "nosotros": "molestaríamos", "vosotros": "molestaríais", "ellos": "molestarían" },
+  "subjunctive": { "yo": "moleste", "tú": "molestes", "él": "moleste", "nosotros": "molestemos", "vosotros": "molestéis", "ellos": "molesten" }
+},
+"sorprender": {
+  "english": "to surprise",
+  "present": { "yo": "sorprendo", "tú": "sorprendes", "él": "sorprende", "nosotros": "sorprendemos", "vosotros": "sorprendéis", "ellos": "sorprenden" },
+  "preterite": { "yo": "sorprendí", "tú": "sorprendiste", "él": "sorprendió", "nosotros": "sorprendimos", "vosotros": "sorprendisteis", "ellos": "sorprendieron" },
+  "imperfect": { "yo": "sorprendía", "tú": "sorprendías", "él": "sorprendía", "nosotros": "sorprendíamos", "vosotros": "sorprendíais", "ellos": "sorprendían" },
+  "future": { "yo": "sorprenderé", "tú": "sorprenderás", "él": "sorprenderá", "nosotros": "sorprenderemos", "vosotros": "sorprenderéis", "ellos": "sorprenderán" },
+  "conditional": { "yo": "sorprendería", "tú": "sorprenderías", "él": "sorprendería", "nosotros": "sorprenderíamos", "vosotros": "sorprenderíais", "ellos": "sorprenderían" },
+  "subjunctive": { "yo": "sorprenda", "tú": "sorprendas", "él": "sorprenda", "nosotros": "sorprendamos", "vosotros": "sorprendáis", "ellos": "sorprendan" }
+},
+"enviar": {
+  "english": "to send",
+  "present": { "yo": "envío", "tú": "envías", "él": "envía", "nosotros": "enviamos", "vosotros": "enviáis", "ellos": "envían" },
+  "preterite": { "yo": "envié", "tú": "enviaste", "él": "envió", "nosotros": "enviamos", "vosotros": "enviasteis", "ellos": "enviaron" },
+  "imperfect": { "yo": "enviaba", "tú": "enviabas", "él": "enviaba", "nosotros": "enviábamos", "vosotros": "enviabais", "ellos": "enviaban" },
+  "future": { "yo": "enviaré", "tú": "enviarás", "él": "enviará", "nosotros": "enviaremos", "vosotros": "enviaréis", "ellos": "enviarán" },
+  "conditional": { "yo": "enviaría", "tú": "enviarías", "él": "enviaría", "nosotros": "enviaríamos", "vosotros": "enviaríais", "ellos": "enviarían" },
+  "subjunctive": { "yo": "envíe", "tú": "envíes", "él": "envíe", "nosotros": "enviemos", "vosotros": "enviéis", "ellos": "envíen" }
+},
+"mandar": {
+  "english": "to send/order/command",
+  "present": { "yo": "mando", "tú": "mandas", "él": "manda", "nosotros": "mandamos", "vosotros": "mandáis", "ellos": "mandan" },
+  "preterite": { "yo": "mandé", "tú": "mandaste", "él": "mandó", "nosotros": "mandamos", "vosotros": "mandasteis", "ellos": "mandaron" },
+  "imperfect": { "yo": "mandaba", "tú": "mandabas", "él": "mandaba", "nosotros": "mandábamos", "vosotros": "mandabais", "ellos": "mandaban" },
+  "future": { "yo": "mandaré", "tú": "mandarás", "él": "mandará", "nosotros": "mandaremos", "vosotros": "mandaréis", "ellos": "mandarán" },
+  "conditional": { "yo": "mandaría", "tú": "mandarías", "él": "mandaría", "nosotros": "mandaríamos", "vosotros": "mandaríais", "ellos": "mandarían" },
+  "subjunctive": { "yo": "mande", "tú": "mandes", "él": "mande", "nosotros": "mandemos", "vosotros": "mandéis", "ellos": "manden" }
+},
+"recomendar": {
+  "english": "to recommend",
+  "present": { "yo": "recomiendo", "tú": "recomiendas", "él": "recomienda", "nosotros": "recomendamos", "vosotros": "recomendáis", "ellos": "recomiendan" },
+  "preterite": { "yo": "recomendé", "tú": "recomendaste", "él": "recomendó", "nosotros": "recomendamos", "vosotros": "recomendasteis", "ellos": "recomendaron" },
+  "imperfect": { "yo": "recomendaba", "tú": "recomendabas", "él": "recomendaba", "nosotros": "recomendábamos", "vosotros": "recomendabais", "ellos": "recomendaban" },
+  "future": { "yo": "recomendaré", "tú": "recomendarás", "él": "recomendará", "nosotros": "recomendaremos", "vosotros": "recomendaréis", "ellos": "recomendarán" },
+  "conditional": { "yo": "recomendaría", "tú": "recomendarías", "él": "recomendaría", "nosotros": "recomendaríamos", "vosotros": "recomendaríais", "ellos": "recomendarían" },
+  "subjunctive": { "yo": "recomiende", "tú": "recomiendes", "él": "recomiende", "nosotros": "recomendemos", "vosotros": "recomendéis", "ellos": "recomienden" }
+},
+"controlar": {
+  "english": "to control",
+  "present": { "yo": "controlo", "tú": "controlas", "él": "controla", "nosotros": "controlamos", "vosotros": "controláis", "ellos": "controlan" },
+  "preterite": { "yo": "controlé", "tú": "controlaste", "él": "controló", "nosotros": "controlamos", "vosotros": "controlasteis", "ellos": "controlaron" },
+  "imperfect": { "yo": "controlaba", "tú": "controlabas", "él": "controlaba", "nosotros": "controlábamos", "vosotros": "controlabais", "ellos": "controlaban" },
+  "future": { "yo": "controlaré", "tú": "controlarás", "él": "controlará", "nosotros": "controlaremos", "vosotros": "controlaréis", "ellos": "controlarán" },
+  "conditional": { "yo": "controlaría", "tú": "controlarías", "él": "controlaría", "nosotros": "controlaríamos", "vosotros": "controlaríais", "ellos": "controlarían" },
+  "subjunctive": { "yo": "controle", "tú": "controles", "él": "controle", "nosotros": "controlemos", "vosotros": "controléis", "ellos": "controlen" }
+},
+"comparar": {
+  "english": "to compare",
+  "present": { "yo": "comparo", "tú": "comparas", "él": "compara", "nosotros": "comparamos", "vosotros": "comparáis", "ellos": "comparan" },
+  "preterite": { "yo": "comparé", "tú": "comparaste", "él": "comparó", "nosotros": "comparamos", "vosotros": "comparasteis", "ellos": "compararon" },
+  "imperfect": { "yo": "comparaba", "tú": "comparabas", "él": "comparaba", "nosotros": "comparábamos", "vosotros": "comparabais", "ellos": "comparaban" },
+  "future": { "yo": "compararé", "tú": "compararás", "él": "comparará", "nosotros": "compararemos", "vosotros": "compararéis", "ellos": "compararán" },
+  "conditional": { "yo": "compararía", "tú": "compararías", "él": "compararía", "nosotros": "compararíamos", "vosotros": "compararíais", "ellos": "compararían" },
+  "subjunctive": { "yo": "compare", "tú": "compares", "él": "compare", "nosotros": "comparemos", "vosotros": "comparéis", "ellos": "comparen" }
+},
+"analizar": {
+  "english": "to analyze",
+  "present": { "yo": "analizo", "tú": "analizas", "él": "analiza", "nosotros": "analizamos", "vosotros": "analizáis", "ellos": "analizan" },
+  "preterite": { "yo": "analicé", "tú": "analizaste", "él": "analizó", "nosotros": "analizamos", "vosotros": "analizasteis", "ellos": "analizaron" },
+  "imperfect": { "yo": "analizaba", "tú": "analizabas", "él": "analizaba", "nosotros": "analizábamos", "vosotros": "analizabais", "ellos": "analizaban" },
+  "future": { "yo": "analizaré", "tú": "analizarás", "él": "analizará", "nosotros": "analizaremos", "vosotros": "analizaréis", "ellos": "analizarán" },
+  "conditional": { "yo": "analizaría", "tú": "analizarías", "él": "analizaría", "nosotros": "analizaríamos", "vosotros": "analizaríais", "ellos": "analizarían" },
+  "subjunctive": { "yo": "analice", "tú": "analices", "él": "analice", "nosotros": "analicemos", "vosotros": "analicéis", "ellos": "analicen" }
+},
+"aprobar": {
+  "english": "to approve/pass",
+  "present": { "yo": "apruebo", "tú": "apruebas", "él": "aprueba", "nosotros": "aprobamos", "vosotros": "aprobáis", "ellos": "aprueban" },
+  "preterite": { "yo": "aprobé", "tú": "aprobaste", "él": "aprobó", "nosotros": "aprobamos", "vosotros": "aprobasteis", "ellos": "aprobaron" },
+  "imperfect": { "yo": "aprobaba", "tú": "aprobabas", "él": "aprobaba", "nosotros": "aprobábamos", "vosotros": "aprobabais", "ellos": "aprobaban" },
+  "future": { "yo": "aprobaré", "tú": "aprobarás", "él": "aprobará", "nosotros": "aprobaremos", "vosotros": "aprobaréis", "ellos": "aprobarán" },
+  "conditional": { "yo": "aprobaría", "tú": "aprobarías", "él": "aprobaría", "nosotros": "aprobaríamos", "vosotros": "aprobaríais", "ellos": "aprobarían" },
+  "subjunctive": { "yo": "apruebe", "tú": "apruebes", "él": "apruebe", "nosotros": "aprobemos", "vosotros": "aprobéis", "ellos": "aprueben" }
+},
+"rechazar": {
+  "english": "to reject/refuse",
+  "present": { "yo": "rechazo", "tú": "rechazas", "él": "rechaza", "nosotros": "rechazamos", "vosotros": "rechazáis", "ellos": "rechazan" },
+  "preterite": { "yo": "rechacé", "tú": "rechazaste", "él": "rechazó", "nosotros": "rechazamos", "vosotros": "rechazasteis", "ellos": "rechazaron" },
+  "imperfect": { "yo": "rechazaba", "tú": "rechazabas", "él": "rechazaba", "nosotros": "rechazábamos", "vosotros": "rechazabais", "ellos": "rechazaban" },
+  "future": { "yo": "rechazaré", "tú": "rechazarás", "él": "rechazará", "nosotros": "rechazaremos", "vosotros": "rechazaréis", "ellos": "rechazarán" },
+  "conditional": { "yo": "rechazaría", "tú": "rechazarías", "él": "rechazaría", "nosotros": "rechazaríamos", "vosotros": "rechazaríais", "ellos": "rechazarían" },
+  "subjunctive": { "yo": "rechace", "tú": "rechaces", "él": "rechace", "nosotros": "rechacemos", "vosotros": "rechacéis", "ellos": "rechacen" }
+},
+"publicar": {
+  "english": "to publish",
+  "present": { "yo": "publico", "tú": "publicas", "él": "publica", "nosotros": "publicamos", "vosotros": "publicáis", "ellos": "publican" },
+  "preterite": { "yo": "publiqué", "tú": "publicaste", "él": "publicó", "nosotros": "publicamos", "vosotros": "publicasteis", "ellos": "publicaron" },
+  "imperfect": { "yo": "publicaba", "tú": "publicabas", "él": "publicaba", "nosotros": "publicábamos", "vosotros": "publicabais", "ellos": "publicaban" },
+  "future": { "yo": "publicaré", "tú": "publicarás", "él": "publicará", "nosotros": "publicaremos", "vosotros": "publicaréis", "ellos": "publicarán" },
+  "conditional": { "yo": "publicaría", "tú": "publicarías", "él": "publicaría", "nosotros": "publicaríamos", "vosotros": "publicaríais", "ellos": "publicarían" },
+  "subjunctive": { "yo": "publique", "tú": "publiques", "él": "publique", "nosotros": "publiquemos", "vosotros": "publiquéis", "ellos": "publiquen" }
+},
+"acabar": {
+  "english": "to finish/end up",
+  "present": { "yo": "acabo", "tú": "acabas", "él": "acaba", "nosotros": "acabamos", "vosotros": "acabáis", "ellos": "acaban" },
+  "preterite": { "yo": "acabé", "tú": "acabaste", "él": "acabó", "nosotros": "acabamos", "vosotros": "acabasteis", "ellos": "acabaron" },
+  "imperfect": { "yo": "acababa", "tú": "acababas", "él": "acababa", "nosotros": "acabábamos", "vosotros": "acababais", "ellos": "acababan" },
+  "future": { "yo": "acabaré", "tú": "acabarás", "él": "acabará", "nosotros": "acabaremos", "vosotros": "acabaréis", "ellos": "acabarán" },
+  "conditional": { "yo": "acabaría", "tú": "acabarías", "él": "acabaría", "nosotros": "acabaríamos", "vosotros": "acabaríais", "ellos": "acabarían" },
+  "subjunctive": { "yo": "acabe", "tú": "acabes", "él": "acabe", "nosotros": "acabemos", "vosotros": "acabéis", "ellos": "acaben" }
+},
+"quemar": {
+  "english": "to burn",
+  "present": { "yo": "quemo", "tú": "quemas", "él": "quema", "nosotros": "quemamos", "vosotros": "quemáis", "ellos": "queman" },
+  "preterite": { "yo": "quemé", "tú": "quemaste", "él": "quemó", "nosotros": "quemamos", "vosotros": "quemasteis", "ellos": "quemaron" },
+  "imperfect": { "yo": "quemaba", "tú": "quemabas", "él": "quemaba", "nosotros": "quemábamos", "vosotros": "quemabais", "ellos": "quemaban" },
+  "future": { "yo": "quemaré", "tú": "quemarás", "él": "quemará", "nosotros": "quemaremos", "vosotros": "quemaréis", "ellos": "quemarán" },
+  "conditional": { "yo": "quemaría", "tú": "quemarías", "él": "quemaría", "nosotros": "quemaríamos", "vosotros": "quemaríais", "ellos": "quemarían" },
+  "subjunctive": { "yo": "queme", "tú": "quemes", "él": "queme", "nosotros": "quememos", "vosotros": "queméis", "ellos": "quemen" }
+},
+"cubrir": {
+  "english": "to cover",
+  "present": { "yo": "cubro", "tú": "cubres", "él": "cubre", "nosotros": "cubrimos", "vosotros": "cubrís", "ellos": "cubren" },
+  "preterite": { "yo": "cubrí", "tú": "cubriste", "él": "cubrió", "nosotros": "cubrimos", "vosotros": "cubristeis", "ellos": "cubrieron" },
+  "imperfect": { "yo": "cubría", "tú": "cubrías", "él": "cubría", "nosotros": "cubríamos", "vosotros": "cubríais", "ellos": "cubrían" },
+  "future": { "yo": "cubriré", "tú": "cubrirás", "él": "cubrirá", "nosotros": "cubriremos", "vosotros": "cubriréis", "ellos": "cubrirán" },
+  "conditional": { "yo": "cubriría", "tú": "cubrirías", "él": "cubriría", "nosotros": "cubriríamos", "vosotros": "cubriríais", "ellos": "cubrirían" },
+  "subjunctive": { "yo": "cubra", "tú": "cubras", "él": "cubra", "nosotros": "cubramos", "vosotros": "cubráis", "ellos": "cubran" }
+},
+"partir": {
+  "english": "to leave/depart/split",
+  "present": { "yo": "parto", "tú": "partes", "él": "parte", "nosotros": "partimos", "vosotros": "partís", "ellos": "parten" },
+  "preterite": { "yo": "partí", "tú": "partiste", "él": "partió", "nosotros": "partimos", "vosotros": "partisteis", "ellos": "partieron" },
+  "imperfect": { "yo": "partía", "tú": "partías", "él": "partía", "nosotros": "partíamos", "vosotros": "partíais", "ellos": "partían" },
+  "future": { "yo": "partiré", "tú": "partirás", "él": "partirá", "nosotros": "partiremos", "vosotros": "partiréis", "ellos": "partirán" },
+  "conditional": { "yo": "partiría", "tú": "partirías", "él": "partiría", "nosotros": "partiríamos", "vosotros": "partiríais", "ellos": "partirían" },
+  "subjunctive": { "yo": "parta", "tú": "partas", "él": "parta", "nosotros": "partamos", "vosotros": "partáis", "ellos": "partan" }
 }
 }

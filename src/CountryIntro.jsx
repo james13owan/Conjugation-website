@@ -158,7 +158,7 @@ export default function CountryIntro({ country, selectedTense, stopNumber, total
         {(() => {
           const fact = country.funFacts[factIndex];
           const len = fact.length;
-          const fontSize = len < 70 ? "1.35rem" : len < 100 ? "1.1rem" : len < 130 ? "0.95rem" : "0.85rem";
+          const fontSize = len < 70 ? "1.75rem" : len < 100 ? "1.5rem" : len < 130 ? "1.25rem" : "1.1rem";
           return (
             <div
               style={{
@@ -182,7 +182,7 @@ export default function CountryIntro({ country, selectedTense, stopNumber, total
                   textAlign: "center",
                 }}
               >
-                😎 DID YOU KNOW?
+                DID YOU KNOW?
               </div>
               <div
                 style={{
